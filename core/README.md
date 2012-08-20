@@ -1,0 +1,1 @@
+Core project is the module that actualy performs the search in the shortcuts database.

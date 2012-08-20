@@ -1,0 +1,12 @@
+apply plugin:'java'
+
+repositories {
+    flatDir {
+        name "fileRepo"
+        dirs "lib"
+    }
+}
+
+dependencies {
+    compile 'JNativeHook:JNativeHook:'
+}
