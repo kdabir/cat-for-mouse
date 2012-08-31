@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class S09ShowPopup extends PlainDocument {
+public class showShortcutsPopup extends PlainDocument {
     JComboBox comboBox;
     ComboBoxModel model;
     JTextComponent editor;
@@ -17,7 +17,7 @@ public class S09ShowPopup extends PlainDocument {
     // subsequent calls to remove/insertString should be ignored
     boolean selecting=false;
 
-    public S09ShowPopup(final JComboBox comboBox) {
+    public showShortcutsPopup(final JComboBox comboBox) {
         this.comboBox = comboBox;
         model = comboBox.getModel();
         editor = (JTextComponent) comboBox.getEditor().getEditorComponent();
@@ -37,8 +37,7 @@ public class S09ShowPopup extends PlainDocument {
                                 .getSource());
                         frame.setVisible(false);
                         break;
-                    default:
-                        if (comboBox.isDisplayable()) comboBox.setPopupVisible(true);
+
                 }
             }
         });
