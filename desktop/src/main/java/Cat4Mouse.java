@@ -16,11 +16,11 @@ public class Cat4Mouse extends JPanel {
     JComboBox appNameComboBox;
     JComboBox shortcutsComboBox;
 
-    String[] menuShortCuts = {"Idea Open File", "Idea Save File", "Terminal open", "Eclipse Open file", "Idea new file"};
+    String[] menuShortCuts = {"Idea open file", "Idea save file", "Idea new file", "Terminal open", "Eclipse Open file"};
 
 
     public Cat4Mouse() {
-        super(new BorderLayout());
+        super();
 
         setUpAndAddComboBox();
 
@@ -60,34 +60,34 @@ public class Cat4Mouse extends JPanel {
     }
 
     private void setUpAndAddComboBox() {
-        ShortcutsRenderer renderer = new ShortcutsRenderer();
-        renderer.setPreferredSize(new Dimension(300, 20));
-
         DefaultComboBoxModel comboBoxModel=new DefaultComboBoxModel(menuShortCuts);
         shortcutsComboBox =createComboBox(comboBoxModel,new ShortcutsRenderer());
-
-        DefaultComboBoxModel comboBoxModel1=new DefaultComboBoxModel();
-        appNameComboBox=createComboBox(comboBoxModel1, new AppNameRenderer());
 
         JTextComponent editor = (JTextComponent) this.shortcutsComboBox.getEditor().getEditorComponent();
         editor.setDocument(new ShowShortcutsPopup(this.shortcutsComboBox));
 
+        this.shortcutsComboBox.setBorder(BorderFactory.createEmptyBorder());
+
+        add(shortcutsComboBox);
+
+        DefaultComboBoxModel comboBoxModel1=new DefaultComboBoxModel();
+        appNameComboBox=createComboBox(comboBoxModel1,new AppNameRenderer());
+
         JTextComponent editor1 = (JTextComponent) appNameComboBox.getEditor().getEditorComponent();
         editor1.setDocument(new ShowAppNamePopup(appNameComboBox));
 
-        this.shortcutsComboBox.setBorder(BorderFactory.createEmptyBorder());
         appNameComboBox.setBorder(BorderFactory.createEmptyBorder());
         //Lay out the demo.
         setLayout(new GridLayout(1, 2, 0, 0));
 
         add(appNameComboBox);
-        add(shortcutsComboBox);
         setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
     }
 
     private JComboBox createComboBox(DefaultComboBoxModel comboBoxModel, ListCellRenderer comboBoxRenderer) {
         JComboBox comboBox = new JComboBox(comboBoxModel);
         comboBox.setSize(70, 20);
+        comboBox.setPreferredSize(new Dimension(300, 20));
         comboBox.setMaximumRowCount(3);
         comboBox.setEditable(true);
         comboBox.setSelectedItem(null);
@@ -96,8 +96,6 @@ public class Cat4Mouse extends JPanel {
         comboBox.setUI(new AquaComboBoxUI() {
             @Override
             protected JButton createArrowButton() {
-                super.createArrowButton();
-
                 return new JButton() {
                     public int getWidth() {
                         return 0;

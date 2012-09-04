@@ -1,13 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
+import java.nio.charset.Charset;
 import java.util.Arrays;
 
 class ShortcutsRenderer extends JLabel implements ListCellRenderer {
-    private Font uhOhFont;
 
     String[] imageNames = {"idea_icon.png", "idea_icon.png", "terminal.jpg", "eclipse_icon.png", "idea_icon.png"};
     ImageIcon[] images = {};
-    String[] menuShortCuts = {"Idea Open File", "Idea Save File", "Terminal open", "Eclipse Open file", "Idea new file"};
+    String[] menuShortCuts = {"Idea open file", "Idea save file", "Idea new file", "Terminal open", "Eclipse Open file"};
 
     public ShortcutsRenderer() {
         setOpaque(true);
@@ -15,9 +15,7 @@ class ShortcutsRenderer extends JLabel implements ListCellRenderer {
         setVerticalAlignment(CENTER);
 
         images = new ImageIcon[menuShortCuts.length];
-        Integer[] intArray = new Integer[menuShortCuts.length];
         for (int i = 0; i < menuShortCuts.length; i++) {
-            intArray[i] = new Integer(i);
             images[i] = createImageIcon("covers/" + imageNames[i]);
             if (images[i] != null) {
                 images[i].setDescription(menuShortCuts[i]);
@@ -62,10 +60,10 @@ class ShortcutsRenderer extends JLabel implements ListCellRenderer {
         Image image = icon.getImage();
         Image newImage = image.getScaledInstance(20, 20, Image.SCALE_SMOOTH);
         setIcon(new ImageIcon(newImage));
-        if (icon != null) {
-            setUhOhText(pet, list.getFont());
+        if (newImage != null) {
+            setUhOhText(pet);
         } else {
-            setUhOhText(pet + " (no image available)", list.getFont());
+            setUhOhText(pet + " (no image available)");
         }
 
 
@@ -73,11 +71,9 @@ class ShortcutsRenderer extends JLabel implements ListCellRenderer {
     }
 
     //Set the font and text when no image was found.
-    protected void setUhOhText(String uhOhText, Font normalFont) {
-        if (uhOhFont == null) { //lazily create this font
-            uhOhFont = normalFont.deriveFont(Font.ITALIC);
-        }
-        setFont(uhOhFont);
-        setText(uhOhText);
+    protected void setUhOhText(String uhOhText) {
+        System.out.println(uhOhText+(String.format("%" + (30-uhOhText.length()) + "s","cmd")));
+
+        setText(new String((uhOhText + String.format("%" + (30-uhOhText.length()) + "s", "cmd")).getBytes(Charset.defaultCharset())));
     }
 }

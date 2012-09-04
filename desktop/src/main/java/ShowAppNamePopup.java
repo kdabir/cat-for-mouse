@@ -50,7 +50,14 @@ public class ShowAppNamePopup extends PlainDocument {
     }
 
     private void deleteText() {
-        enteredText=enteredText.substring(0,enteredText.length()-1);
+        if((editor.getSelectionEnd()-editor.getSelectionStart()) > 0) {
+            String highlightedText = enteredText.substring(editor.getSelectionStart(), editor.getSelectionEnd());
+            enteredText = enteredText.replace(highlightedText, "");
+        }
+        else {
+            int position = editor.getCaretPosition()-1;
+            enteredText=enteredText.substring(0,position)+enteredText.substring(position+1);
+        }
     }
 
     public void insertString(int offs, String str, AttributeSet a) throws BadLocationException {
@@ -64,7 +71,6 @@ public class ShowAppNamePopup extends PlainDocument {
             setSelectedItem(item);
         } else {
             comboBox.getSelectedItem();
-            offs = offs - str.length();
             comboBox.getToolkit().beep();
         }
         enteredText+=str;
