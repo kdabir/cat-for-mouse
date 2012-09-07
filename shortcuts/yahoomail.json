@@ -1,0 +1,48 @@
+{
+    "General Commands": {
+        "Check mail (jumps to Inbox)": "M",
+        "Check all mail (includes POP accounts)": "Shift+M",
+        "Start a new email message": "N",
+        "Start a new Instant Message (IM)": "I",
+        "Start a new SMS message (text)": "T",
+        "Move to the previous tab": "Cmd+[",
+        "Move to the next tab": "Cmd+]",
+        "Close the current tab": "Esc",
+        "Search": "S",
+        "Display keyboard shortcuts": "?"
+    },
+    "Message Lists": {
+        "Highlight the next message up or down": "Up/Down",
+        "Open a message": "Return",
+        "Select all messages": "Cmd+A",
+        "Turn Preview Pane on or off (when viewing messages in a scrolling list)": "V"
+    },
+    "Message Lists (Page by Page)": {
+        "Check or uncheck a message's checkbox": "Spacebar",
+        "Move focus up or down the list (preserving selection)": "Cmd+Up/Down"
+    },
+    "Messages": {
+        "Reply to a message": "R",
+        "Reply all to a message": "A",
+        "Forward a message": "F",
+        "Mark as read": "K",
+        "Mark as unread": "Shift+K",
+        "Flag a message": "L",
+        "Clear flag": "Shift+L",
+        "Print message": "P",
+        "Delete message": "Delete",
+        "Add sender to contacts": "Shift+A",
+        "Open Move menu": "D",
+        "Move message(s) to one of your first 9 folders": "D then number",
+        "Move message(s) to a new folder": "D then Cmd+Shift+E",
+        "Create a new folder": "Cmd+Shift+E",
+        "View next message up": "Ctrl+,",
+        "View next message down": "Ctrl+.",
+        "View or hide the reply bar": "Shift+R"
+    },
+    "Compose": {
+        "Attach files (one at a time)": "Cmd+Shift+U",
+        "Save as a draft": "Cmd+S",
+        "Send message": "Cmd+Return"
+    }
+}

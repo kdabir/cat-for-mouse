@@ -1,0 +1,50 @@
+General Commands
+
+M: Check mail (jumps to Inbox)
+Shift+M: Check all mail (includes POP accounts)
+N: Start a new email message
+I: Start a new Instant Message (IM)
+T: Start a new SMS message (text)
+Cmd+[: Move to the previous tab
+Cmd+]: Move to the next tab
+Esc: Close the current tab
+S: Search
+?: Display keyboard shortcuts
+
+Message Lists
+
+Up/Down: Highlight the next message up or down
+Return: Open a message
+Cmd+A: Select all messages
+V: Turn Preview Pane on or off (when viewing messages in a scrolling list)
+
+Message Lists (Page by Page)
+
+Spacebar: Check or uncheck a message's checkbox
+Cmd+Up/Down: Move focus up or down the list (preserving selection)
+
+Messages
+
+R: Reply to a message
+A: Reply all to a message
+F: Forward a message
+K: Mark as read
+Shift+K: Mark as unread
+L: Flag a message
+Shift+L: Clear flag
+P: Print message
+Delete: Delete message
+Shift+A: Add sender to contacts
+D: Open Move menu
+D then number: Move message(s) to one of your first 9 folders
+D then Cmd+Shift+E: Move message(s) to a new folder
+Cmd+Shift+E: Create a new folder
+Ctrl+,: View next message up
+Ctrl+.: View next message down
+Shift+R: View or hide the reply bar
+
+Compose
+
+Cmd+Shift+U : Attach files (one at a time)
+Cmd+S: Save as a draft
+Cmd+Return: Send message
