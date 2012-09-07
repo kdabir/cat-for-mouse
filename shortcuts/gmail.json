@@ -1,0 +1,67 @@
+{
+    "Jumping": {
+        "Go to Inbox": "g then i",
+        "Go to Starred conversations": "g then s",
+        "Go to Sent messages": "g then t",
+        "Go to Drafts": "g then d",
+        "Go to All mail": "g then a",
+        "Go to Contacts": "g then c",
+        "Go to Tasks": "g then k",
+        "Go to Label": "g then l"
+    },
+    "Threadlist selection": {
+        "Select all conversations": "* then a",
+        "Deselect all conversations": "* then n",
+        "Select read conversations": "* then r",
+        "Select unread conversations": "* then u",
+        "Select starred conversations": "* then s",
+        "Select unstarred conversations": "* then t"
+    },
+    "Navigation": {
+        "Back to threadlist": "u",
+        "Newer/older conversation": "k / j",
+        "Open conversation; collapse/expand conversation": "o or <Enter>",
+        "Read previous/next message": "p / n",
+        "Go to next inbox section": "`",
+        "Go to previous inbox section": "~"
+    },
+    "Application": {
+        "Compose": "c",
+        "Search mail": "/",
+        "Search chat contacts": "q",
+        "Open \"more actions\" menu": ".",
+        "Open \"move to\" menu": "v",
+        "Open \"label as\" menu": "l",
+        "Open keyboard shortcut help": "?"
+    },
+    "Actions": {
+        "Move focus to toolbar": ",",
+        "Select conversation": "x",
+        "Rotate superstar": "s",
+        "Remove label": "y",
+        "Archive": "e",
+        "Ignore conversation": "m",
+        "Report as spam": "!",
+        "Move to trash": "#",
+        "Reply": "r",
+        "Reply in a new window": "<Shift> + r",
+        "Reply all": "a",
+        "Reply all in a new window": "<Shift> + a",
+        "Forward": "f",
+        "Forward in a new window": "<Shift> + f",
+        "Update conversation": "<Shift> + n",
+        "Send mail": "<Tab> then Enter",
+        "Focus last mole": "<Esc>",
+        "Remove conversation from current view and go previous/next": "] / [",
+        "Archive conversation and go previous/next": "} / {",
+        "Undo last action": "z",
+        "Mark as read": "<Shift> + i",
+        "Mark as unread": "<Shift> + u",
+        "Mark unread from the selected message": "_",
+        "Save draft": "<Ctrl> + s",
+        "Mark as important": "+ or =",
+        "Mark as not important": "-",
+        "Make a phone call": "g then p",
+        "Add conversation to Tasks": "<Shift> + t"
+    }
+}
