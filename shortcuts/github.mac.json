@@ -1,0 +1,61 @@
+{
+    "Site wide shortcuts": {
+        "Focus site search": "s",
+        "Bring up this help dialog": "?"
+    },
+    "Pull request list": {
+        "Move selection down": "j",
+        "Move selection up": "k",
+        "Open issue": "o or enter",
+        "Submit comment": "\u2318 + enter",
+        "Preview comment": "\u2318 + shift p"
+    },
+    "Issues": {
+        "Move selection down": "j",
+        "Move selection up": "k",
+        "Toggle selection": "x",
+        "Open issue": "o or enter",
+        "Submit comment": "\u2318 + enter",
+        "Preview comment": "\u2318 + shift p",
+        "Create issue": "c",
+        "Create label": "l",
+        "Back to inbox": "i",
+        "Back to issues": "u",
+        "Focus issues search": "/"
+    },
+    "Issues Dashboard": {
+        "Move selection down": "j",
+        "Move selection up": "k",
+        "or enter Open issue": "o"
+    },
+    "Network Graph": {
+        "Scroll left": "\u2190 or h",
+        "Scroll right": "\u2192 or l",
+        "Scroll up": "\u2191 or k",
+        "Scroll down": "\u2193 or j",
+        "Toggle visibility of head labels": "t",
+        "Scroll all the way left": "shift \u2190 or shift h",
+        "Scroll all the way right": "shift \u2192 or shift l",
+        "Scroll all the way up": "shift \u2191 or shift k",
+        "Scroll all the way down": "shift \u2193 or shift j"
+    },
+    "Source Code Browsing": {
+        "Activates the file finder": "t",
+        "Jump to line": "l",
+        "Switch branch/tag": "w",
+        "Expand URL to its canonical form": "y"
+    },
+    "Browsing Commits": {
+        "Submit comment": "\u2318 + enter",
+        "Close form": "escape",
+        "Parent commit": "p",
+        "Other parent commit": "o"
+    },
+    "Notifications": {
+        "Move selection down": "j",
+        "Move selection up": "k",
+        "Open notification": "o or enter",
+        "Mark as read": "e or shift i or y",
+        "Mute thread": "shift m"
+    }
+}

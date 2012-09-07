@@ -1,0 +1,66 @@
+Site wide shortcuts
+
+s: Focus site search
+?: Bring up this help dialog
+
+Pull request list
+
+j: Move selection down
+k: Move selection up
+o or enter: Open issue
+⌘ + enter: Submit comment
+⌘ + shift p: Preview comment
+
+Issues
+
+j: Move selection down
+k: Move selection up
+x: Toggle selection
+o or enter: Open issue
+⌘ + enter: Submit comment
+⌘ + shift p: Preview comment
+c: Create issue
+l: Create label
+i: Back to inbox
+u: Back to issues
+/: Focus issues search
+
+Issues Dashboard
+
+j: Move selection down
+k: Move selection up
+o: or enter Open issue
+
+Network Graph
+
+← or h: Scroll left
+→ or l: Scroll right
+↑ or k: Scroll up
+↓ or j: Scroll down
+t: Toggle visibility of head labels
+shift ← or shift h: Scroll all the way left
+shift → or shift l: Scroll all the way right
+shift ↑ or shift k: Scroll all the way up
+shift ↓ or shift j: Scroll all the way down
+
+Source Code Browsing
+
+t: Activates the file finder
+l: Jump to line
+w: Switch branch/tag
+y: Expand URL to its canonical form
+
+Browsing Commits
+
+⌘ + enter: Submit comment
+escape: Close form
+p: Parent commit
+o: Other parent commit
+
+Notifications
+
+j: Move selection down
+k: Move selection up
+o or enter: Open notification
+e or shift i or y: Mark as read
+shift m: Mute thread
