@@ -1,0 +1,442 @@
+{
+    "Tab and window shortcuts": {
+        "Reopens the last tab you've closed. Google Chrome remembers the last 10 tabs you've closed.": {
+            "mac": "\u2318-Shift-T",
+            "win": "Ctrl+Shift+T",
+            "linux": "Ctrl+Shift+T"
+        },
+        "Opens the link in the tab.": {
+            "win": "Drag a link to a tab.",
+            "linux": "Drag a link to a tab."
+        },
+        "Hides all other windows.": {
+            "mac": "\u2318-Option-H"
+        },
+        "Returns the tab to its original position.": {
+            "win": "Press Esc while dragging a tab.",
+            "linux": "Press Esc while dragging a tab."
+        },
+        "Maximizes or minimizes the window.": {
+            "win": "Double-click the blank area on the tab strip.",
+            "linux": "Double-click the blank area on the tab strip."
+        },
+        "Opens a new tab.": {
+            "mac": "\u2318-T",
+            "win": "Ctrl+T",
+            "linux": "Ctrl+T"
+        },
+        "Switches to the last tab.": {
+            "win": "Ctrl+9",
+            "linux": "Ctrl+9"
+        },
+        "Opens the link in a new tab in the background .": {
+            "mac": "Press \u2318 and click a link. Or click a link with your middle mouse button (or mousewheel).",
+            "win": "Press Ctrl and click a link. Or click a link with your middle mouse button (or mousewheel).",
+            "linux": "Press Ctrl and click a link. Or click a link with your middle mouse button (or mousewheel)."
+        },
+        "Opens a new window in incognito mode.": {
+            "mac": "\u2318-Shift-N",
+            "win": "Ctrl+Shift+N",
+            "linux": "Ctrl+Shift+N"
+        },
+        "Switches to the previous tab.": {
+            "mac": "Press \u2318-Option and the left arrow together.",
+            "win": "Ctrl+Shift+Tab or Ctrl+PgUp",
+            "linux": "Ctrl+Shift+Tab or Ctrl+PgUp"
+        },
+        "Opens the link in a new window.": {
+            "mac": "Press Shift and click a link.",
+            "win": "Press Shift and click a link.",
+            "linux": "Press Shift and click a link."
+        },
+        "Closes the current tab or pop-up.": {
+            "mac": "\u2318-W",
+            "win": "Ctrl+W or Ctrl+F4",
+            "linux": "Ctrl+W or Ctrl+F4"
+        },
+        "Closes the current window.": {
+            "mac": "\u2318-Shift-W",
+            "win": "Alt+F4"
+        },
+        "Displays your browsing history in the tab.": {
+            "mac": "Click and hold either the Back or Forward arrow in the browser toolbar.",
+            "win": "Right-click, or click and hold either the Back or Forward arrow in the browser toolbar.",
+            "linux": "Right-click, or click and hold either the Back or Forward arrow in the browser toolbar."
+        },
+        "Closes the tab you clicked.": {
+            "win": "Click a tab with your middle mouse button (or mousewheel).",
+            "linux": "Click a tab with your middle mouse button (or mousewheel)."
+        },
+        "Switches to the tab at the specified position number on the tab strip.": {
+            "win": "Ctrl+1 through Ctrl+8",
+            "linux": "Ctrl+1 through Ctrl+8"
+        },
+        "Opens a new window.": {
+            "mac": "\u2318-N",
+            "win": "Ctrl+N",
+            "linux": "Ctrl+N"
+        },
+        "Opens a file from your computer in Google Chrome.": {
+            "mac": "Press \u2318-O, then select file.",
+            "win": "Press Ctrl+O, then select file.",
+            "linux": "Press Ctrl+O, then select file."
+        },
+        "Goes to the previous page in your browsing history for the tab.": {
+            "mac": "Press Delete or \u2318-[",
+            "win": "Press Backspace, or Alt and the left arrow together.",
+            "linux": "Press Alt and the left arrow together."
+        },
+        "Opens the link in a new tab.": {
+            "win": "Drag a link to a blank area on the tab strip.",
+            "linux": "Drag a link to a blank area on the tab strip."
+        },
+        "Opens the tab in the existing window.": {
+            "mac": "Drag a tab out of the tab strip and into an existing window.",
+            "win": "Drag a tab out of the tab strip and into an existing window.",
+            "linux": "Drag a tab out of the tab strip and into an existing window."
+        },
+        "Maximizes the window.": {
+            "mac": "Press Shift while clicking the + button in the top left corner of the window."
+        },
+        "Opens your homepage in your current window.": {
+            "win": "Alt+Home"
+        },
+        "Minimizes the window.": {
+            "mac": "\u2318-M"
+        },
+        "Closes Google Chrome.": {
+            "mac": "\u2318-Q",
+            "linux": "Ctrl+Shift+Q"
+        },
+        "Hides Google Chrome.": {
+            "mac": "\u2318-H"
+        },
+        "Opens the link in a new tab and switches to the newly opened tab.": {
+            "mac": "Press \u2318-Shift and click a link. Or press Shift and click a link with your middle mouse button (or mousewheel).",
+            "win": "Press Ctrl+Shift and click a link. Or press Shift and click a link with your middle mouse button (or mousewheel).",
+            "linux": "Press Ctrl+Shift and click a link. Or press Shift and click a link with your middle mouse button (or mousewheel)."
+        },
+        "Opens the tab in a new window.": {
+            "mac": "Drag a tab out of the tab strip.",
+            "win": "Drag a tab out of the tab strip.",
+            "linux": "Drag a tab out of the tab strip."
+        },
+        "Goes to the next page in your browsing history for the tab.": {
+            "mac": "Press Shift-Delete or \u2318-]",
+            "win": "Press Shift+Backspace, or Alt and the right arrow together.",
+            "linux": "Press Alt and the right arrow together."
+        },
+        "Switches to the next tab.": {
+            "mac": "Press \u2318-Option and the right arrow together.",
+            "win": "Ctrl+Tab or Ctrl+PgDown",
+            "linux": "Ctrl+Tab or Ctrl+PgDown"
+        },
+        "Opens the button destination in a new tab in the background.": {
+            "win": "Press Ctrl and click either the Back arrow, Forward arrow, or Go button in the toolbar. Or click either button with your middle mouse button (or mousewheel).",
+            "linux": "Click either the Back arrow, Forward arrow, or Go button in the toolbar with your middle mouse button (or mousewheel)."
+        }
+    },
+    "Text shortcuts": {
+        "Opens the Spelling and Grammar dialog.": {
+            "mac": "\u2318-:"
+        },
+        "Selects all the text on your current page.": {
+            "mac": "\u2318-A"
+        },
+        "Deletes highlighted content and saves it to your clipboard (cut).": {
+            "mac": "\u2318-X"
+        },
+        "Copies the URL of the page you're viewing to the clipboard.": {
+            "mac": "\u2318-Option-C"
+        },
+        "Checks your current page for spelling and grammar": {
+            "mac": "\u2318-;"
+        },
+        "Deletes the highlighted content and copies it to the clipboard.": {
+            "mac": "\u2318-X or Shift-Delete",
+            "win": "Ctrl+X or Shift+Delete",
+            "linux": "Ctrl+X or Shift+Delete"
+        },
+        "Pastes content from the clipboard.": {
+            "mac": "\u2318-V",
+            "win": "Ctrl+V or Shift+Insert",
+            "linux": "Ctrl+V or Shift+Insert"
+        },
+        "Paste content from the clipboard without formatting.": {
+            "win": "Ctrl+Shift+V",
+            "linux": "Ctrl+Shift+V"
+        },
+        "Repeats your last action.": {
+            "mac": "\u2318-Shift-Z"
+        },
+        "Reverts your last action.": {
+            "mac": "\u2318-Z"
+        },
+        "Pastes content without source formatting.": {
+            "mac": "\u2318-Shift-Option-V"
+        },
+        "Copies highlighted content to the clipboard.": {
+            "mac": "\u2318-C",
+            "win": "Ctrl+C",
+            "linux": "Ctrl+C"
+        }
+    },
+    "Webpage shortcuts": {
+        "Opens the JavaScript Console.": {
+            "mac": "\u2318-Option-J"
+        },
+        "Reloads your current page.": {
+            "mac": "\u2318-R",
+            "win": "F5 or Ctrl+R",
+            "linux": "Ctrl+R"
+        },
+        "Downloads the target of the link.": {
+            "mac": "Press Option and click a link.",
+            "win": "Press Alt and click a link.",
+            "linux": "Press Alt and click a link."
+        },
+        "Prints your current page.": {
+            "mac": "\u2318-P",
+            "win": "Ctrl+P",
+            "linux": "Ctrl+P"
+        },
+        "Emails your current page.": {
+            "mac": "\u2318-Shift-I"
+        },
+        "Opens the Page Setup dialog.": {
+            "mac": "\u2318-Shift-P"
+        },
+        "Scrolls down the web page.": {
+            "mac": "Space bar",
+            "win": "Space bar",
+            "linux": "Space bar"
+        },
+        "Finds the previous match for your input in the find bar.": {
+            "mac": "\u2318-Shift-G or Shift-Enter",
+            "win": "Ctrl+Shift+G, Shift+F3, or Shift+Enter",
+            "linux": "Ctrl+Shift+G or Shift+Enter"
+        },
+        "Saves your current page.": {
+            "mac": "\u2318-S",
+            "win": "Ctrl+S",
+            "linux": "Ctrl+S"
+        },
+        "Jumps to selection": {
+            "mac": "\u2318-J"
+        },
+        "Stops loading of your current page.": {
+            "mac": "\u2318-,"
+        },
+        "Opens your page in full-screen mode. Press \u2318-Shift-F again to exit full-screen.": {
+            "mac": "\u2318-Shift-F"
+        },
+        "Searches the web.": {
+            "mac": "\u2318-Option-F"
+        },
+        "Makes everything on the page smaller.": {
+            "mac": "\u2318 and -",
+            "win": "Ctrl and -, or press Ctrl and scroll your mousewheel down.",
+            "linux": "Ctrl and -, or press Ctrl and scroll your mousewheel down."
+        },
+        "Goes to the bottom of the page.": {
+            "win": "End",
+            "linux": "End"
+        },
+        "Finds the next match for your input in the find bar.": {
+            "mac": "\u2318-G",
+            "win": "Ctrl+G or F3",
+            "linux": "Ctrl+G or Enter"
+        },
+        "Saves the link as a bookmark.": {
+            "mac": "Drag a link to the bookmarks bar.",
+            "win": "Drag a link to bookmarks bar",
+            "linux": "Drag a link to bookmarks bar"
+        },
+        "Saves all open tabs as bookmarks in a new folder.": {
+            "mac": "\u2318-Shift-D"
+        },
+        "Scrolls horizontally on the page.": {
+            "win": "Press Shift and scroll your mousewheel."
+        },
+        "Opens Developer Tools.": {
+            "mac": "\u2318-Option-I"
+        },
+        "Reloads your current page, ignoring cached content.": {
+            "win": "Ctrl+F5 or Shift+F5"
+        },
+        "Uses selection for find": {
+            "mac": "\u2318-E"
+        },
+        "Opens the find bar.": {
+            "mac": "\u2318-F",
+            "win": "Ctrl+F",
+            "linux": "Ctrl+F"
+        },
+        "Stops the loading of your current page.": {
+            "win": "Esc",
+            "linux": "Esc"
+        },
+        "Goes to the top of the page.": {
+            "win": "Home",
+            "linux": "Home"
+        },
+        "Opens the source of your current page.": {
+            "mac": "\u2318-Option-U",
+            "win": "Ctrl+U",
+            "linux": "Ctrl+U"
+        },
+        "Returns everything on the page to normal size.": {
+            "mac": "\u2318-0",
+            "win": "Ctrl+0",
+            "linux": "Ctrl+0"
+        },
+        "Saves all open pages as bookmarks in a new folder.": {
+            "win": "Ctrl+Shift+D",
+            "linux": "Ctrl+Shift+D"
+        },
+        "Opens your home page in your current tab.": {
+            "mac": "\u2318-Shift-H"
+        },
+        "Saves your current webpage as a bookmark.": {
+            "mac": "\u2318-D",
+            "win": "Ctrl+D",
+            "linux": "Ctrl+D"
+        },
+        "Activates auto-scrolling. As you move your mouse, the page automatically scrolls according to the direction of the mouse.": {
+            "win": "Click the middle mouse button (or mousewheel)."
+        },
+        "Opens your page in full-screen mode. Press F11 again to exit full-screen.": {
+            "win": "F11",
+            "linux": "F11"
+        },
+        "Enlarges everything on the page.": {
+            "mac": "\u2318-+",
+            "win": "Ctrl and +, or press Ctrl and scroll your mousewheel up.",
+            "linux": "Ctrl and +, or press Ctrl and scroll your mousewheel up."
+        }
+    },
+    "Google Chrome feature shortcuts": {
+        "Toggles the bookmarks bar on and off.": {
+            "mac": "\u2318-Shift-B",
+            "win": "Ctrl+Shift+B",
+            "linux": "Ctrl+Shift+B"
+        },
+        "Opens the Task Manager.": {
+            "win": "Shift+Esc",
+            "linux": "Shift+Esc"
+        },
+        "Switch between multiple users.": {
+            "mac": "\u2318-Shift-M",
+            "win": "Ctrl+Shift+M",
+            "linux": "Ctrl+Shift+M"
+        },
+        "Opens the Preferences dialog.": {
+            "mac": "\u2318-,"
+        },
+        "Opens the Tools menu, which lets you customize and control settings in Google Chrome.": {
+            "linux": "Alt+F"
+        },
+        "Opens the Help Center in a new tab (our favorite).": {
+            "win": "F1",
+            "linux": "F1"
+        },
+        "Opens Developer Tools.": {
+            "win": "Ctrl+Shift+J",
+            "linux": "Ctrl+Shift+J"
+        },
+        "Opens the Clear Browsing Data dialog.": {
+            "mac": "\u2318-Shift-Delete",
+            "win": "Ctrl+Shift+Delete",
+            "linux": "Ctrl+Shift+Delete"
+        },
+        "Opens the History page.": {
+            "mac": "\u2318-Y",
+            "win": "Ctrl+H",
+            "linux": "Ctrl+H"
+        },
+        "Opens the Downloads page.": {
+            "mac": "\u2318-Shift-J",
+            "win": "Ctrl+J",
+            "linux": "Ctrl+J"
+        },
+        "Opens the bookmark manager.": {
+            "mac": "\u2318-Option-B"
+        },
+        "Opens the wrench menu, which lets you customize and control settings in Google Chrome.": {
+            "win": "Alt+F or Alt+E"
+        }
+    },
+    "Address bar shortcuts": {
+        "Opens the URL in a new tab.": {
+            "win": "Type a URL, then press Alt+Enter."
+        },
+        "Highlights the next key term in the address bar": {
+            "mac": "Press Shift-Option and the right arrow together."
+        },
+        "Selects the previous or next entry in the menu.": {
+            "mac": "Press Page Up or Page Down in the addess bar menu."
+        },
+        "Opens the entry in a new tab in the background.": {
+            "win": "Click an entry in the address bar drop-down menu with your middle mouse button (or mousewheel).",
+            "linux": "Click an entry in the address bar drop-down menu with your middle mouse button (or mousewheel)."
+        },
+        "Selects the first or last entry in the drop-down menu.": {
+            "win": "Press Page Up or Page Down when the address bar drop-down menu is visible.",
+            "linux": "Press Page Up or Page Down when the address bar drop-down menu is visible."
+        },
+        "Deletes the key term that precedes your cursor in the address bar": {
+            "mac": "\u2318-Delete",
+            "win": "Ctrl+Backspace",
+            "linux": "Ctrl+Backspace"
+        },
+        "Moves your cursor to the preceding key term in the address bar": {
+            "mac": "Press Option and the left arrow together.",
+            "win": "Press Ctrl and the left arrow together.",
+            "linux": "Press Ctrl+Shift and the left arrow together."
+        },
+        "Highlights the URL.": {
+            "mac": "\u2318-L",
+            "win": "Ctrl+L or Alt+D",
+            "linux": "Ctrl+L"
+        },
+        "Highlights the preceding key term in the address bar": {
+            "mac": "Press Shift-Option and the left arrow together."
+        },
+        "Opens the URL in a new background tab.": {
+            "mac": "Type a URL, then press \u2318-Enter."
+        },
+        "Deletes the entry from your browsing history, if possible.": {
+            "mac": "Select an entry in the address bar drop-down menu with your keyboard arrows, then press Shift-Fn-Delete.",
+            "win": "Select an entry in the address bar drop-down menu with your keyboard arrows, then press Shift+Delete.",
+            "linux": "Select an entry in the address bar drop-down menu with your keyboard arrows, then press Shift+Delete."
+        },
+        "Performs a search using your default search engine.": {
+            "mac": "Type a search term, then press Enter.",
+            "win": "Type a search term, then press Enter.",
+            "linux": "Type a search term, then press Enter."
+        },
+        "Adds www. and .com to your input in the address bar and open the resulting URL.": {
+            "win": "Ctrl+Enter"
+        },
+        "Performs a search using the search engine associated with the keyword.": {
+            "mac": "Type a search engine keyword, press Space, type a search term, and press Enter.",
+            "win": "Type a search engine keyword, press Space, type a search term, and press Enter.",
+            "linux": "Type a search engine keyword, press Space, type a search term, and press Enter."
+        },
+        "Performs a search using the search engine associated with the URL.": {
+            "mac": "Begin typing a search engine URL, press Tab when prompted, type a search term, and press Enter.",
+            "win": "Begin typing a search engine URL, press Tab when prompted, type a search term, and press Enter.",
+            "linux": "Begin typing a search engine URL, press Tab when prompted, type a search term, and press Enter."
+        },
+        "Places a '?' in the address bar. Type a search term after the question mark to perform a search using your default search engine.": {
+            "mac": "\u2318-Option-F",
+            "win": "Ctrl+K or Ctrl+E",
+            "linux": "Ctrl+K or Ctrl+E"
+        },
+        "Moves your cursor to the next key term in the address bar": {
+            "mac": "Press Option and the right arrow together.",
+            "win": "Press Ctrl and the right arrow together.",
+            "linux": "Press Ctrl+Shift and the right arrow together."
+        }
+    }
+}
