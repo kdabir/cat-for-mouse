@@ -1,64 +1,182 @@
 {
-    "Finder Shortcuts": {
-        "Select all items in the front Finder window (or desktop if no window is open)": "Command-A",
-        "Deselect all items": "Option-Command-A",
-        "Open the Applications folder": "Shift-Command-A",
-        "Copy selected item/text to the Clipboard": "Command-C",
-        "Open the Computer window": "Shift-Command-C",
-        "Duplicate selected item": "Command-D",
-        "Open desktop folder": "Shift-Command-D",
-        "Eject": "Command-E",
-        "Find any matching Spotlight attribute": "Command-F",
-        "Find Spotlight file name matches": "Shift-Command-F",
-        "Navigate to the search field in an already-open Spotlight window": "Option-Command-F",
-        "Go to Folder": "Shift-Command-G",
-        "Open the Home folder of the currently logged-in user account": "Shift-Command-H",
-        "Get Info": "Command-I",
-        "Show Inspector": "Option-Command-I",
-        "Get Summary Info": "Control-Command-I",
-        "Open iDisk": "Shift-Command-I",
-        "Show View Options": "Command-J",
-        "Connect to Server": "Command-K",
-        "Open Network window": "Shift-Command-K",
-        "Make alias of the selected item": "Command-L",
-        "Minimize window": "Command-M",
-        "Minimize all windows": "Option-Command-M",
-        "New Finder window": "Command-N",
-        "New folder": "Shift-Command-N",
-        "New Smart Folder": "Option-Command-N",
-        "Open selected item": "Command-O",
-        "Log Out": "Shift-Command-Q",
-        "Log Out immediately": "Option-Shift-Command-Q",
-        "Show original (of alias)": "Command-R",
-        "Add to Sidebar": "Command-T",
-        "Add to Favorites": "Shift-Command-T",
-        "Hide Toolbar / Show Toolbar in Finder windows": "Option-Command-T",
-        "Open Utilities folder": "Shift-Command-U",
-        "Paste": "Command-V",
-        "Close window": "Command-W",
-        "Close all windows": "Option-Command-W",
-        "Cut": "Command-X",
-        "Slideshow (Mac OS X 10.5 or later)": "Option-Command-Y",
-        "Undo / Redo": "Command-Z",
-        "View as Icon": "Command-1",
-        "View as List": "Command-2",
-        "View as Columns": "Command-3",
-        "View as Cover Flow (Mac OS X 10.5 or later)": "Command-4",
-        "Open Finder preferences": "Command-, (Command and the comma key)",
-        "Cycle through open Finder windows": "Command-` (the Grave accent key--above Tab key on a US English keyboard layout)",
-        "Open Mac Help": "Command-Shift-?",
-        "Force Quit front-most application": "Option-Shift-Command-Esc (hold for three seconds) - Mac OS X v10.5, v10.6 or later only",
-        "Back": "Command-[",
-        "Forward": "Command-]",
-        "Open enclosed folder": "Command-Up Arrow",
-        "Open enclosed folder in a new window": "Control-Command-Up Arrow",
-        "Open highlighted item": "Command-Down Arrow",
-        "Switch application--cycle forward": "Command-Tab",
-        "Switch application--cycle backward": "Shift-Command-Tab",
-        "Move to Trash": "Command-Delete",
-        "Empty Trash": "Shift-Command-Delete",
-        "Empty Trash without confirmation dialog": "Option-Shift-Command-Delete",
-        "Quick Look (Mac OS X 10.5 or later)": "Spacebar (or Command-Y)",
+    "Finder Shortcuts":{
+        "Select all items in the front Finder window (or desktop if no window is open)":{
+            "mac":"Command-A"
+        },
+        "Deselect all items":{
+            "mac":"Option-Command-A"
+        },
+        "Open the Applications folder":{
+            "mac":"Shift-Command-A"
+        },
+        "Copy selected item/text to the Clipboard":{
+            "mac":"Command-C"
+        },
+        "Open the Computer window":{
+            "mac":"Shift-Command-C"
+        },
+        "Duplicate selected item":{
+            "mac":"Command-D"
+        },
+        "Open desktop folder":{
+            "mac":"Shift-Command-D"
+        },
+        "Eject":{
+            "mac":"Command-E"
+        },
+        "Find any matching Spotlight attribute":{
+            "mac":"Command-F"
+        },
+        "Find Spotlight file name matches":{
+            "mac":"Shift-Command-F"
+        },
+        "Navigate to the search field in an already-open Spotlight window":{
+            "mac":"Option-Command-F"
+        },
+        "Go to Folder":{
+            "mac":"Shift-Command-G"
+        },
+        "Open the Home folder of the currently logged-in user account":{
+            "mac":"Shift-Command-H"
+        },
+        "Get Info":{
+            "mac":"Command-I"
+        },
+        "Show Inspector":{
+            "mac":"Option-Command-I"
+        },
+        "Get Summary Info":{
+            "mac":"Control-Command-I"
+        },
+        "Open iDisk":{
+            "mac":"Shift-Command-I"
+        },
+        "Show View Options":{
+            "mac":"Command-J"
+        },
+        "Connect to Server":{
+            "mac":"Command-K"
+        },
+        "Open Network window":{
+            "mac":"Shift-Command-K"
+        },
+        "Make alias of the selected item":{
+            "mac":"Command-L"
+        },
+        "Minimize window":{
+            "mac":"Command-M"
+        },
+        "Minimize all windows":{
+            "mac":"Option-Command-M"
+        },
+        "New Finder window":{
+            "mac":"Command-N"
+        },
+        "New folder":{
+            "mac":"Shift-Command-N"
+        },
+        "New Smart Folder":{
+            "mac":"Option-Command-N"
+        },
+        "Open selected item":{
+            "mac":"Command-O"
+        },
+        "Log Out":{
+            "mac":"Shift-Command-Q"
+        },
+        "Log Out immediately":{
+            "mac":"Option-Shift-Command-Q"
+        },
+        "Show original (of alias)":{
+            "mac":"Command-R"
+        },
+        "Add to Sidebar":{
+            "mac":"Command-T"
+        },
+        "Add to Favorites":{
+            "mac":"Shift-Command-T"
+        },
+        "Hide Toolbar / Show Toolbar in Finder windows":{
+            "mac":"Option-Command-T"
+        },
+        "Open Utilities folder":{
+            "mac":"Shift-Command-U"
+        },
+        "Paste":{
+            "mac":"Command-V"
+        },
+        "Close window":{
+            "mac":"Command-W"
+        },
+        "Close all windows":{
+            "mac":"Option-Command-W"
+        },
+        "Cut":{
+            "mac":"Command-X"
+        },
+        "Slideshow (Mac OS X 10.5 or later)":{
+            "mac":"Option-Command-Y"
+        },
+        "Undo / Redo":{
+            "mac":"Command-Z"
+        },
+        "View as Icon":{
+            "mac":"Command-1"
+        },
+        "View as List":{
+            "mac":"Command-2"
+        },
+        "View as Columns":{
+            "mac":"Command-3"
+        },
+        "View as Cover Flow (Mac OS X 10.5 or later)":{
+            "mac":"Command-4"
+        },
+        "Open Finder preferences":{
+            "mac":"Command-, (Command and the comma key)"
+        },
+        "Cycle through open Finder windows":{
+            "mac":"Command-` (the Grave accent key--above Tab key on a US English keyboard layout)"
+        },
+        "Open Mac Help":{
+            "mac":"Command-Shift-?"
+        },
+        "Force Quit front-most application":{
+            "mac":"Option-Shift-Command-Esc (hold for three seconds) - Mac OS X v10.5, v10.6 or later only"
+        },
+        "Back":{
+            "mac":"Command-["
+        },
+        "Forward":{
+            "mac":"Command-]"
+        },
+        "Open enclosed folder":{
+            "mac":"Command-Up Arrow"
+        },
+        "Open enclosed folder in a new window":{
+            "mac":"Control-Command-Up Arrow"
+        },
+        "Open highlighted item":{
+            "mac":"Command-Down Arrow"
+        },
+        "Switch application--cycle forward":{
+            "mac":"Command-Tab"
+        },
+        "Switch application--cycle backward":{
+            "mac":"Shift-Command-Tab"
+        },
+        "Move to Trash":{
+            "mac":"Command-Delete"
+        },
+        "Empty Trash":{
+            "mac":"Shift-Command-Delete"
+        },
+        "Empty Trash without confirmation dialog":{
+            "mac":"Option-Shift-Command-Delete"
+        },
+        "Quick Look (Mac OS X 10.5 or later)":{
+            "mac":"Spacebar (or Command-Y)"
+        }
 
     }
 }
