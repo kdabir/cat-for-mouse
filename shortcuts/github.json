@@ -1,61 +1,61 @@
 {
     "Site wide shortcuts": {
-        "Focus site search": { "all": "s"},
-        "Bring up this help dialog": { "all": "?"}
+        "Focus site search": { "mac": "s", "win" : "s", "linux": "s"},
+        "Bring up this help dialog": { "mac": "?", "win" : "?", "linux": "?"}
     },
     "Pull request list": {
-        "Move selection down": { "all": "j"},
-        "Move selection up": { "all": "k"},
-        "Open issue": { "all": "o or enter"},
+        "Move selection down": { "mac": "j", "win" : "j", "linux": "j"},
+        "Move selection up": { "mac": "k", "win" : "k", "linux": "k"},
+        "Open issue": { "mac": "o or enter", "win" : "o or enter", "linux": "o or enter"},
         "Submit comment": { "mac": "\u2318 + enter"},
         "Preview comment": { "mac": "\u2318 + shift p"}
     },
     "Issues": {
-        "Move selection down": { "all": "j"},
-        "Move selection up": { "all": "k"},
-        "Toggle selection": { "all": "x"},
-        "Open issue": { "all": "o or enter"},
+        "Move selection down": { "mac": "j", "win" : "j", "linux": "j"},
+        "Move selection up": { "mac": "k", "win" : "k", "linux": "k"},
+        "Toggle selection": { "mac": "x", "win" : "x", "linux": "x"},
+        "Open issue": { "mac": "o or enter", "win" : "o or enter", "linux": "o or enter"},
         "Submit comment": { "mac": "\u2318 + enter"},
         "Preview comment": { "mac": "\u2318 + shift p"},
-        "Create issue": { "all": "c"},
-        "Create label": { "all": "l"},
-        "Back to inbox": { "all": "i"},
-        "Back to issues": { "all": "u"},
-        "Focus issues search": { "all": "/"}
+        "Create issue": { "mac": "c", "win" : "c", "linux": "c"},
+        "Create label": { "mac": "l", "win" : "l", "linux": "l"},
+        "Back to inbox": { "mac": "i", "win" : "i", "linux": "i"},
+        "Back to issues": { "mac": "u", "win" : "u", "linux": "u"},
+        "Focus issues search": { "mac": "/", "win" : "/", "linux": "/"}
     },
     "Issues Dashboard": {
-        "Move selection down": { "all": "j"},
-        "Move selection up": { "all": "k"},
-        "or enter Open issue": { "all": "o"}
+        "Move selection down": { "mac": "j", "win" : "j", "linux": "j"},
+        "Move selection up": { "mac": "k", "win" : "k", "linux": "k"},
+        "or enter Open issue": { "mac": "o", "win" : "o", "linux": "o"}
     },
     "Network Graph": {
-        "Scroll left": "\u2190 or h",
-        "Scroll right": "\u2192 or l",
-        "Scroll up": "\u2191 or k",
-        "Scroll down": { "all": "\u2193 or j"},
-        "Toggle visibility of head labels": { "all": "t"},
-        "Scroll all the way left": { "all": "shift \u2190 or shift h"},
-        "Scroll all the way right": { "all": "shift \u2192 or shift l"},
-        "Scroll all the way up": { "all": "shift \u2191 or shift k"},
-        "Scroll all the way down": { "all": "shift \u2193 or shift j"}
+        "Scroll left": {"mac":"\u2190 or h"},
+        "Scroll right": {"mac":"\u2192 or l"},
+        "Scroll up": {"mac":"\u2191 or k"},
+        "Scroll down": { "mac": "\u2193 or j", "win" : "\u2193 or j", "linux": "\u2193 or j"},
+        "Toggle visibility of head labels": { "mac": "t", "win" : "t", "linux": "t"},
+        "Scroll all the way left": { "mac": "shift \u2190 or shift h", "win" : "shift \u2190 or shift h", "linux": "shift \u2190 or shift h"},
+        "Scroll all the way right": { "mac": "shift \u2192 or shift l", "win" : "shift \u2192 or shift l", "linux": "shift \u2192 or shift l"},
+        "Scroll all the way up": { "mac": "shift \u2191 or shift k", "win" : "shift \u2191 or shift k", "linux": "shift \u2191 or shift k"},
+        "Scroll all the way down": { "mac": "shift \u2193 or shift j", "win" : "shift \u2193 or shift j", "linux": "shift \u2193 or shift j"}
     },
     "Source Code Browsing": {
-        "Activates the file finder": { "all": "t"},
-        "Jump to line": { "all": "l"},
-        "Switch branch/tag": { "all": "w"},
-        "Expand URL to its canonical form": { "all": "y"}
+        "Activates the file finder": { "mac": "t", "win" : "t", "linux": "t"},
+        "Jump to line": { "mac": "l", "win" : "l", "linux": "l"},
+        "Switch branch/tag": { "mac": "w", "win" : "w", "linux": "w"},
+        "Expand URL to its canonical form": { "mac": "y", "win" : "y", "linux": "y"}
     },
     "Browsing Commits": {
-        "Submit comment": { "all": "\u2318 + enter"},
-        "Close form": { "all": "escape"},
-        "Parent commit": { "all": "p"},
-        "Other parent commit": { "all": "o"}
+        "Submit comment": { "mac": "\u2318 + enter", "win" : "\u2318 + enter", "linux": "\u2318 + enter"},
+        "Close form": { "mac": "escape", "win" : "escape", "linux": "escape"},
+        "Parent commit": { "mac": "p", "win" : "p", "linux": "p"},
+        "Other parent commit": { "mac": "o", "win" : "o", "linux": "o"}
     },
     "Notifications": {
-        "Move selection down": { "all": "j"},
-        "Move selection up": { "all": "k"},
-        "Open notification": { "all": "o or enter"},
-        "Mark as read": { "all": "e or shift i or y"},
-        "Mute thread": { "all": "shift m"}
+        "Move selection down": { "mac": "j", "win" : "j", "linux": "j"},
+        "Move selection up": { "mac": "k", "win" : "k", "linux": "k"},
+        "Open notification": { "mac": "o or enter", "win" : "o or enter", "linux": "o or enter"},
+        "Mark as read": { "mac": "e or shift i or y", "win" : "e or shift i or y", "linux": "e or shift i or y"},
+        "Mute thread": { "mac": "shift m", "win" : "shift m", "linux": "shift m"}
     }
 }
