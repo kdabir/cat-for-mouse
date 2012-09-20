@@ -1,0 +1,43 @@
+package org.c4m.repository
+
+import groovy.json.JsonSlurper
+
+/**
+ * 
+ */
+class GithubShortcutsJsonRepository implements ShortcutsJsonRepository {
+
+    def baseUrl = "https://api.github.com/repos/kdabir/cat-for-mouse/contents/shortcuts"
+
+    GithubShortcutsJsonRepository() {
+    }
+
+    GithubShortcutsJsonRepository(String baseUrl) {
+        this.baseUrl = baseUrl
+    }
+
+    @Override
+    Set getFileNames() {
+        def url = new URL(baseUrl)
+        def names = [] as Set
+
+        def items = new groovy.json.JsonSlurper().parseText(url.text)
+        items.each { item ->
+            if (item.type == 'file' && item.name =~/.*\.json/) {
+                names << item.name
+            }
+        }
+        return names
+    }
+
+    @Override
+    Map getJsonContent(String fileName) {
+        def url = new URL("${baseUrl}/${fileName}")
+
+        def response = new groovy.json.JsonSlurper().parseText(url.text)
+        byte[] decoded = response.content.decodeBase64()
+        def content = new String(decoded)
+
+        new JsonSlurper().parseText(content)
+    }
+}

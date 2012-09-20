@@ -1,0 +1,16 @@
+apply plugin: 'application'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":core")
+    groovy localGroovy()
+}
+mainClassName = "Main"
+
+run {
+    args "$rootDir/shortcuts","$rootDir/static-app/mappings"
+}

@@ -1,0 +1,10 @@
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'groovy'
+    version = '0.1-SNAPSHOT'
+    group = 'org.c4m'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.1'
+}
