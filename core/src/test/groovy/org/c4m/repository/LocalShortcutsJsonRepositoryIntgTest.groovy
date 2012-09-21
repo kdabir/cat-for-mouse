@@ -12,7 +12,7 @@ class LocalShortcutsJsonRepositoryIntgTest extends GroovyTestCase {
         throw new RuntimeException("This test can be run either from root project dir or subproject dir only")
     }
 
-    LocalShortcutsJsonRepository repository = new LocalShortcutsJsonRepository(getShortcutsDir())
+    LocalShortcutsJsonRepository repository = new LocalShortcutsJsonRepository(getShortcutsDir(), "images")
 
     void testGetFileNames() {
         assert repository.fileNames.size() > 4

@@ -20,6 +20,16 @@ class ShortcutService {
         repository.getFileNames().collect {String fileName -> fileName.replaceAll(".json","")}
 	}
 
+    def getAppIconsFor(String appName){
+        def result
+        repository.getImageFileNames().each {String fileName ->
+            if(fileName.startsWith(appName)){
+                result = fileName
+            }
+        }
+        return result;
+    }
+
     def getAppsFor(Platform platform){
         def result = [] as Set
         repository.getFileNames().each { String fileName ->
