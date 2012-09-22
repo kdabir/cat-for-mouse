@@ -24,8 +24,19 @@ class Main {
             def apps = service.getAppsFor(platform)
             apps.each { appName ->
                 JsonBuilder json = new JsonBuilder()
-                json service.getShortcutsFor(appName,platform)
+//                json service.getShortcutsFor(appName,platform)
+                def array = []
+                def appmap = service.getShortcutsFor(appName,platform)
+                appmap.each {k,v->
+                    array <<  [
+                            "action":k.replaceAll("\"","\\\""),
+                            "context":v.context,
+                            "shortcut":v.shortcut
+                    ]
+                }
+                json array
                 new File("${platformDir}/${appName}.json").text  = json.toPrettyString()
+
             }
 
         }

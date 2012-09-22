@@ -1,4 +1,5 @@
-apply plugin:'java'
+apply plugin: 'java'
+apply plugin: 'application'
 
 repositories {
     flatDir {
@@ -6,6 +7,9 @@ repositories {
         dirs "lib"
     }
 }
+
+mainClassName = "Cat4Mouse"
+
 
 dependencies {
     compile 'JNativeHook:JNativeHook:'
