@@ -68,6 +68,11 @@ public class ShortcutServiceTest {
             SHORTCUTS.keySet()
         }
 
+        @Override
+        Set getImageFileNames() {
+            return null  //To change body of implemented methods use File | Settings | File Templates.
+        }
+
         public Map getJsonContent(String fileName) throws FileNotFoundException {
             if (!(fileName in getFileNames())) throw new FileNotFoundException(fileName)
             return SHORTCUTS[fileName]

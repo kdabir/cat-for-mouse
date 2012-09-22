@@ -1,5 +1,5 @@
 import org.c4m.service.ShortcutService
-import org.c4m.repository.GithubShortcutsJsonRepository
+
 import org.c4m.service.Platform
 import org.c4m.repository.LocalShortcutsJsonRepository
 import groovy.json.JsonBuilder
@@ -15,7 +15,7 @@ class Main {
             return
         }
 
-        ShortcutService service = new ShortcutService(new LocalShortcutsJsonRepository(args[0]))
+        ShortcutService service = new ShortcutService(new LocalShortcutsJsonRepository(args[0], "images"))
 
         Platform.values().each { platform ->
             def platformDir = args[1] + "/" + platform.toString()

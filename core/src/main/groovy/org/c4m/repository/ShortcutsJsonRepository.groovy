@@ -14,6 +14,8 @@ interface ShortcutsJsonRepository {
      */
     Set getFileNames()
 
+    Set getImageFileNames()
+
     /**
      *
      * @param fileName

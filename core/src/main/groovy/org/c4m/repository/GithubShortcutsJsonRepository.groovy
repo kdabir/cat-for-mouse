@@ -31,6 +31,11 @@ class GithubShortcutsJsonRepository implements ShortcutsJsonRepository {
     }
 
     @Override
+    Set getImageFileNames() {
+        return null  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
     Map getJsonContent(String fileName) {
         def url = new URL("${baseUrl}/${fileName}")
 

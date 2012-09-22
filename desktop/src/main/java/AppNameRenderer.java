@@ -1,15 +1,21 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.Arrays;
 
-public class AppNameRenderer extends JLabel implements ListCellRenderer {
-    private Font uhOhFont;
-    String[] appName = {"Idea", "Eclipse", "Terminal", "Skype", "Gmail","Yahoo"};
+class AppNameRenderer extends JLabel implements ListCellRenderer {
+    ImageIcon[] images = {};
+
+    String[] menuShortCuts = null;
 
     public AppNameRenderer() {
         setOpaque(true);
         setHorizontalAlignment(LEFT);
         setVerticalAlignment(CENTER);
+        menuShortCuts = ApplicationMapper.getApps();
+        images = ApplicationMapper.getAppIcons();
+
     }
+
 
     /*
     * This method finds the image and text corresponding
@@ -22,29 +28,35 @@ public class AppNameRenderer extends JLabel implements ListCellRenderer {
             int index,
             boolean isSelected,
             boolean cellHasFocus) {
+        int selectedIndex = Arrays.asList(menuShortCuts).indexOf(value);
 
-        String pet = value.toString();
+        ImageIcon icon = images[selectedIndex];
+        String pet = menuShortCuts[selectedIndex];
 
         if (isSelected) {
-            setBackground(list.getSelectionBackground());
+            setBackground(new Color(49,38,209));
             setForeground(list.getSelectionForeground());
         } else {
             setBackground(list.getBackground());
             setForeground(list.getForeground());
         }
 
-        setUhOhText(pet, list.getFont());
+        Image image = icon.getImage();
+        Image newImage = image.getScaledInstance(20, 20, Image.SCALE_SMOOTH);
+        setIcon(new ImageIcon(newImage));
+        if (newImage != null) {
+            setUhOhText(pet);
+        } else {
+            setUhOhText(pet + " (no image available)");
+        }
 
 
         return this;
     }
 
     //Set the font and text when no image was found.
-    protected void setUhOhText(String uhOhText, Font normalFont) {
-        if (uhOhFont == null) { //lazily create this font
-            uhOhFont = normalFont.deriveFont(Font.ITALIC);
-        }
-        setFont(uhOhFont);
+    protected void setUhOhText(String uhOhText) {
+        setFont(new Font("Courier",Font.PLAIN,12));
         setText(uhOhText);
     }
 }
