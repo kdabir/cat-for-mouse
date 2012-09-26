@@ -16,13 +16,7 @@ import java.awt.event.*;
 import java.io.File;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 22/09/12
- * Time: 7:29 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class MainFrame extends JFrame{
 
     public static final int ITEM_SIZE = 40;

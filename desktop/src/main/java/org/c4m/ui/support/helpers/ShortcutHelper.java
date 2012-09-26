@@ -12,13 +12,7 @@ import javax.swing.*;
 import java.io.File;
 import java.util.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 24/09/12
- * Time: 3:17 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class ShortcutHelper {
     private  final ShortcutService service;
     private Platform platform;

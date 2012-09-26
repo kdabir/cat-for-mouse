@@ -7,16 +7,9 @@ import javax.swing.*;
 import javax.swing.plaf.basic.BasicComboBoxEditor;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 22/09/12
- * Time: 8:34 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class AppEditor extends BasicComboBoxEditor {
 
     private AppEditorUIElement editor;

@@ -3,13 +3,7 @@ package org.c4m.ui.model;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 22/09/12
- * Time: 7:47 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class AppUIModel {
     public AppUIModel(ImageIcon icon, String appName) {
         this.icon = new ImageIcon(icon.getImage().getScaledInstance(32,32,Image.SCALE_SMOOTH));

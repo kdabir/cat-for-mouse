@@ -6,13 +6,6 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 22/09/12
- * Time: 7:48 PM
- * To change this template use File | Settings | File Templates.
- */
 public class ShortcutUIModelRenderer extends AbstractUIModelRenderer{
 
 

@@ -4,16 +4,8 @@ import org.c4m.ui.model.AppUIModel;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 22/09/12
- * Time: 8:24 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class AppEditorUIElement extends JPanel {
 
     private JLabel imageLbl ;

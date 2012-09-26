@@ -5,13 +5,7 @@ import org.c4m.ui.model.ShortcutUIModel;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 24/09/12
- * Time: 5:50 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class ShortcutListUIElement extends JPanel {
     private JLabel actionLbl;
     private JLabel shortcutLbl;

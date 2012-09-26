@@ -2,13 +2,7 @@ package org.c4m.ui.support.helpers;
 
 import org.c4m.service.Platform;
 
-/**
- * Created with IntelliJ IDEA.
- * User: srideep
- * Date: 24/09/12
- * Time: 3:05 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class OSHelper {
 
     public Platform getPlatform(){
