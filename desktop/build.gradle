@@ -1,5 +1,7 @@
 apply plugin:'java'
 apply plugin: 'groovy'
+apply plugin: 'application'
+
 
 repositories {
     flatDir {
@@ -9,11 +11,14 @@ repositories {
     mavenCentral()
 }
 
+mainClassName = "Cat4Mouse"
 
 
 dependencies {
     compile 'JNativeHook:JNativeHook:'
     compile 'strsrch:strsrch:1.0'
+    compile 'com.apple:AppleJavaExtensions:1.4' // TODO check if it is really required
+
     compile project(":core")
     groovy "org.codehaus.groovy:groovy-all:1.8.6"
 
