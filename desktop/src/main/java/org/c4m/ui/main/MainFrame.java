@@ -13,6 +13,7 @@ import org.c4m.ui.support.helpers.ShortcutHelper;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.File;
 import java.util.List;
 
 /**
@@ -146,7 +147,9 @@ public class MainFrame extends JFrame{
 
 
     private void setupNotificationIcon() {
-            Image image = new ImageIcon(new ImageIcon("./icon/appicon.png").getImage()).getImage();
+        String path = new File(System.getProperty("user.dir")).getParent() + "/images/shortcuts.png";
+        System.out.println(path);
+        Image image = new ImageIcon(new ImageIcon(path).getImage()).getImage();
             final TrayIcon trayIcon = new TrayIcon(image);
             trayIcon.setToolTip("Cat4Mouse");
             try {

@@ -7,10 +7,8 @@ import org.c4m.service.Platform;
 import org.c4m.service.ShortcutService;
 import org.c4m.ui.model.AppUIModel;
 import org.c4m.ui.model.ShortcutUIModel;
-import sun.net.idn.StringPrep;
 
 import javax.swing.*;
-import java.awt.geom.Path2D;
 import java.io.File;
 import java.util.*;
 
@@ -27,9 +25,12 @@ public class ShortcutHelper {
     private List<AppUIModel> appList;
     private static String baseDir = System.getProperty("user.dir");
     private FuzzyStringComparator comparator;
+    private final String imageBaseDir;
 
     public ShortcutHelper(){
-        service = new ShortcutService(new LocalShortcutsJsonRepository("shortcuts", "images"));
+        String parentPath = new File(System.getProperty("user.dir")).getParent();
+        imageBaseDir = parentPath + "/images/";
+        service = new ShortcutService(new LocalShortcutsJsonRepository(parentPath +"/shortcuts", imageBaseDir));
         platform = new OSHelper().getPlatform();
         comparator = new FuzzyStringComparator();
         initAppList();
@@ -65,7 +66,8 @@ public class ShortcutHelper {
     }
 
     private String getAppIconsFor(String appName) {
-        return (String) "./images/" + service.getAppIconsFor(appName);
+        System.out.println(imageBaseDir);
+        return (String) imageBaseDir + service.getAppIconsFor(appName);
     }
 
 
