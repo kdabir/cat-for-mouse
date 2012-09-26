@@ -1,0 +1,239 @@
+{
+    "Navigation": {
+        "Back": {
+            "mac": "command + ← OR command + [ OR Delete"
+        },
+        "Forward": {
+            "mac": "command + → OR command + ] OR Shift + Delete"
+        },
+        "Home": {
+            "mac": "option + home"
+        },
+        "Open File": {
+            "mac": "command + O"
+        },
+        "Reload": {
+            "mac": "F5 OR command + R"
+        },
+        "Reload (override cache)": {
+            "mac": "command + shift + R"
+        },
+        "Stop": {
+            "mac": "Esc OR command + ."
+        }
+    },
+    "Current Page": {
+        "Go to Bottom of Page": {
+            "mac": "End"
+        },
+        "Go to Top of Page": {
+            "mac": "Home"
+        },
+        "Move to Next Frame": {
+            "mac": "F6"
+        },
+        "Move to Previous Frame": {
+            "mac": "Shift + F6"
+        },
+        "Print": {
+            "mac": "command + P"
+        },
+        "Save Page As": {
+            "mac": "command + S"
+        },
+        "Zoom In": {
+            "mac": "command + +"
+        },
+        "Zoom Out": {
+            "mac": "command + -"
+        },
+        "Zoom Reset": {
+            "mac": "command + 0"
+        }
+    },
+    "Editing": {
+        "Copy": {
+            "mac": "command + C"
+        },
+        "Cut": {
+            "mac": "command + X"
+        },
+        "Delete": {
+            "mac": "delete"
+        },
+        "Paste": {
+            "mac": "command + V"
+        },
+        "Redo": {
+            "mac": "command + shift + Z"
+        },
+        "Select All": {
+            "mac": "command + A"
+        },
+        "Undo": {
+            "mac": "command + Z"
+        }
+    },
+    "Search": {
+        "Find": {
+            "mac": "command + F"
+        },
+        "Find Again": {
+            "mac": "F3 OR command + G"
+        },
+        "Find Previous": {
+            "mac": "Shift + F3 OR command + shift + G"
+        },
+        "Quick Find within link-text only": {
+            "mac": "'"
+        },
+        "Quick Find": {
+            "mac": "/"
+        },
+        "Close the Find or Quick Find bar": {
+            "mac": "Esc (when the Find or Quick Find bar is focused)"
+        },
+        "Search bar - Easily choose your favorite search engine": {
+            "mac": "command + K"
+        },
+        "Select or Manage Search Engines": {
+            "mac": "option + ↑"
+        },
+        "option + ↓": {
+            "mac": "- when Search Bar is focused"
+        }
+    },
+    "Windows & Tabs": {
+        "Close Tab": {
+            "mac": "command + W"
+        },
+        "Close Window": {
+            "mac": "command + shift + W"
+        },
+        "Move Tab in focus Left": {
+            "mac": "command + ← OR command + ↑"
+        },
+        "Move Tab in focus Right": {
+            "mac": "command + → OR command + ↓"
+        },
+        "Move Tab in focus to start": {
+            "mac": "command + home"
+        },
+        "Move Tab in focus to end": {
+            "mac": "command + end"
+        },
+        "New Tab": {
+            "mac": "command + T"
+        },
+        "New Window": {
+            "mac": "command + N"
+        },
+        "Next Tab": {
+            "mac": "control + tab OR control + page down OR command + option + →"
+        },
+        "Open Address in New Tab": {
+            "mac": "option + return (from Location Bar or Search Bar)"
+        },
+        "Previous Tab": {
+            "mac": "control + shift + tab OR control + page up OR command + option + ←"
+        },
+        "Undo Close Tab": {
+            "mac": "command + shift + T"
+        },
+        "Undo Close Window": {
+            "mac": "command + shift + N"
+        },
+        "Select Tab 1 to 8": {
+            "mac": "command + 1to8"
+        },
+        "Select Last Tab": {
+            "mac": "command + 9"
+        },
+        "Tab Groups View": {
+            "mac": "command + shift + E"
+        },
+        "Close Tab Groups View": {
+            "mac": "Esc"
+        },
+        "Next Tab Group": {
+            "mac": "control + ` (only for some keyboard layouts)"
+        },
+        "Previous Tab Group": {
+            "mac": "control + shift + ` (only for some keyboard layouts)"
+        }
+    },
+    "History": {
+        "History sidebar": {
+            "mac": "command + shift + H"
+        }
+    },
+    "Bookmarks": {
+        "Bookmark All Tabs": {
+            "mac": "command + shift + D"
+        },
+        "Bookmark This Page": {
+            "mac": "command + D"
+        },
+        "Bookmarks sidebar": {
+            "mac": "command + B"
+        },
+        "Library window (Bookmarks)": {
+            "mac": "command + shift + B"
+        }
+    },
+    "Tools": {
+        "Downloads": {
+            "mac": "command + J"
+        },
+        "Add-ons": {
+            "mac": "command + shift + A"
+        },
+        "Web Console": {
+            "mac": "command + shift + K"
+        },
+        "Inspect": {
+            "mac": "command + shift + I"
+        },
+        "Page Source": {
+            "mac": "command + U"
+        },
+        "Error Console": {
+            "mac": "command + shift + J"
+        },
+        "Page Info": {
+            "mac": "command + I"
+        },
+        "Toggle Private Browsing": {
+            "mac": "command + shift + P"
+        },
+        "Remove recent browsing, search and download history": {
+            "mac": "command + shift + delete"
+        }
+    },
+    "Miscellaneous": {
+        "Complete .com Address": {
+            "mac": "command + return"
+        },
+        "Complete .net Address": {
+            "mac": "shift + return"
+        },
+        "Complete .org Address": {
+            "mac": "command + shift + return"
+        },
+        "Delete Selected Autocomplete Entry": {
+            "mac": "shift + delete"
+        },
+        "Toggle Full Screen": {
+            "mac": "command+Shift+F"
+        },
+        "Show/Hide Add-on Bar": {
+            "mac": "command + /"
+        },
+        "Caret Browsing": {
+            "mac": "F7"
+        },
+        "Select Location Bar": {
+            "mac": "command + L"
+        }
+    }
+}
