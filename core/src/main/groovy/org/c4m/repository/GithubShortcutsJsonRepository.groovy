@@ -3,7 +3,10 @@ package org.c4m.repository
 import groovy.json.JsonSlurper
 
 /**
- * 
+ *
+ * This one uses github api v3
+ * some implementation can use direct get from eg. https://raw.github.com/kdabir/cat-for-mouse/master/shortcuts/chrome.json
+ *
  */
 class GithubShortcutsJsonRepository implements ShortcutsJsonRepository {
 

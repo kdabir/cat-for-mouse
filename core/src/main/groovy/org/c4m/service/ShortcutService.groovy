@@ -24,7 +24,7 @@ class ShortcutService {
         def result
         repository.getImageFileNames().each {String fileName ->
             if(fileName.startsWith(appName)){
-                result = fileName
+                result = fileName  // todo - can extract this out, also improve the logic a bit
             }
         }
         return result;
