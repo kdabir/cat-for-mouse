@@ -6,5 +6,5 @@
 .gradle/
 out/
 build/
-static-app/mappings/
+static-app/shortcuts/
 shortcuts/text

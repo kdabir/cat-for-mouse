@@ -16,7 +16,8 @@ def for_user_selected = shortcuts_for_chrome.get(actions[5])
 println """
   action: ${actions[5]}
 shortcut: ${for_user_selected.shortcut}
- context: ${for_user_selected.context}"""
+ context: ${for_user_selected.context}
+"""
 
 
 
