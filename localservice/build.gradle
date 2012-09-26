@@ -12,5 +12,5 @@ dependencies {
 mainClassName = "Main"
 
 run {
-    args "$rootDir/shortcuts","$rootDir/static-app/mappings"
+    args "$rootDir/shortcuts","$rootDir/static-app/shortcuts"
 }

@@ -1,0 +1,197 @@
+<!doctype html>
+
+<!-- single pager cat-for-mouse webapp-->
+<html ng-app="cat-for-mouse" lang="en" charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cat For Mouse</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style type="text/css">
+            /* app css stylesheet */
+        body {
+            padding-top: 80px;
+        }
+
+        .shortcuts {
+            list-style: none;
+        }
+
+        .shortcuts li {
+            clear: both;
+            height: 100px;
+            padding-top: 15px;
+        }
+
+        .keystrokes {
+            font-size: 18px;
+        }
+
+
+        h1 {
+            border-bottom: 1px solid gray;
+        }
+
+        .platform {
+            color: gray;
+        }
+        .score {
+            color: gray;
+        }
+        .keystrokes {
+            margin-top: 5px;
+        }
+    </style>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-resource.js"></script>
+    <script src="js/strsrch.js"></script>
+
+    <script type="text/javascript">
+        'use strict';
+
+        /* App Module */
+        angular.module('cat-for-mouse', ['catFilters', 'catServices']);
+
+
+        /* Filters */
+        angular.module('catFilters', []).
+                filter('checkmark',function () {
+                    return function (input) {
+                        return input ? '\u2713' : '\u2718';
+                    };
+                }).
+                filter('search', function () {
+                    console.log('outer function called')
+                    return function (input, q, r) {
+                        //console.log("inner function called - " + q + r)
+                        var result = []
+
+                        if (q) {
+                            var resultWtihIndex = new FuzzyComparator(input).fuzzyCompareAndRankObjects(q, 1, function (shortcut) {
+                                return shortcut.action;
+                            });
+
+                            var count = 5;
+                            for (var item in resultWtihIndex) {
+                                if (count-- <= 0) break;
+                                var toBePushed = resultWtihIndex[item].object
+                                toBePushed.score = resultWtihIndex[item].weightage
+                                result.push(toBePushed);
+                            }
+                        }
+                        return result;
+                    };
+                });
+
+
+        /* Services */
+        angular.module('catServices', ['ngResource']).
+                factory('AppShortcuts',function ($resource) {
+                    return $resource('shortcuts/:platform/:app.json', {}, {
+                        query:{method:'GET', params:{app:'@app', platform:'@platform'}, isArray:true}
+                    });
+                }).
+                factory('AppNames', function ($resource) {
+                    return $resource('shortcuts/:platform/_apps.json', {}, {
+                        query:{method:'GET', params:{platform:'@platform'}, isArray:true}
+                    });
+                });
+
+        /* Controllers */
+        function AppShortcutsListCtrl($scope, AppShortcuts) {
+            console.log("ctrl + "+ $scope);
+            $scope.appChange = function (){
+                if ($scope.app) {
+                    $scope.AppShortcuts = AppShortcuts.query({app:$scope.app,platform:$scope.platform}); //TODO -- case
+                }
+            }
+        }
+
+        function AppNamesListCtrl($scope, $params, AppNames) {
+            $scope.AppNames = AppNames.query({platform:$scope.platform}); //TODO -- case
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">Cat For Mouse</a>
+
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="https://github.com/kdabir/cat-for-mouse">About</a></li>
+                    <li><a href="https://github.com/kdabir/cat-for-mouse/tree/master/shortcuts#shortcuts-file-database">Create</a></li>
+                    <li><a href="https://github.com/kdabir/cat-for-mouse">Downloads</a></li>
+
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+
+<div class="container" ng-controller="AppShortcutsListCtrl">
+    <div class="row">
+        <div class="form-inline">
+            <form>
+            <input type="hidden" ng-init="platform='mac'" value="mac"/>
+
+            <label>Select App:</label>
+            <select  placeholder="Choose an app..." ng-model="app" ng-change="appChange()" class="span2" tabindex="1">
+                <option>chrome</option>
+                <option>finder</option>
+                <option>firefox</option>
+                <option>github</option>
+                <option>gmail</option>
+                <option>yahoomail</option>
+            </select>
+
+            <input placeholder="Search here..." ng-model="query"  class="span5" tabindex="2"/> <!-- ng-disabled="!app" -->
+            <span class="platform" > platform : {{platform}}</span>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="">
+            <!--Body content-->
+
+            <ul class="shortcuts">
+
+
+                <li ng-repeat="shortcut in AppShortcuts | search:query" >
+                        <strong>{{shortcut.action}}</strong>
+
+                        <pre class='keystrokes'>{{shortcut.shortcut}}</pre>
+
+
+                    <small>
+                        <span class="category span7"> Category:<strong>{{shortcut.context}} </strong></span>
+                        <span class="score span2"> Score: <strong>{{shortcut.score|number:2 }}</strong></span>
+                    </small>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

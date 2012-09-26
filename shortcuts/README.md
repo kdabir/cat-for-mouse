@@ -21,7 +21,7 @@ json files are used to store the shortcuts mappings as they are:
 ## Why host the shortcuts database on Github?
 This frees us from maintaining a seperate database server for shortcuts and provides a very easy and safe way for community to edit files and add new shortcuts by using github. We use Github API to access these shortcuts files in our application to read shortcuts.
 
-## How Do I add shortcuts for my favorite application ?
+## How Do I add shortcuts for my favorite application?
 To add new shortcuts, fork this repo, add the shortcuts file to this directory, commit and send a pull request. The file specifications are provided below.
 
 ### File Name

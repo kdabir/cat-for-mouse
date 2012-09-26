@@ -1,7 +1,7 @@
 {
     "General Commands": {
         "Check mail (jumps to Inbox)": { "mac": "M"},
-        "Check all mail (includes POP accounts)": { "mac": "Shift+M"},
+        "Check all mail (includes 'POP' accounts)": { "mac": "Shift+M"},
         "Start a new email message": { "mac": "N"},
         "Start a new Instant Message (IM)": { "mac": "I"},
         "Start a new SMS message (text)": { "mac": "T"},

@@ -1,3 +1,13 @@
+//apply plugin: 'github-pages'
+//
+//
+//
+//buildscript {
+//    repositories { mavenCentral() }
+//    dependencies { classpath 'org.ajoberstar:gradle-git:0.2.0' }
+//}
+
+
 allprojects {
     apply plugin: 'idea'
     apply plugin: 'groovy'
@@ -8,3 +18,4 @@ allprojects {
 task wrapper(type: Wrapper) {
     gradleVersion = '1.1'
 }
+

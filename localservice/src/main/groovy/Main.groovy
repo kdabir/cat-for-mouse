@@ -21,21 +21,25 @@ class Main {
             def platformDir = args[1] + "/" + platform.toString()
             new File(platformDir).mkdir()
 
-            def apps = service.getAppsFor(platform)
+            def apps = service.getAppsFor(platform) as List
+            def appsNameJson = new JsonBuilder()
+            appsNameJson apps
+            new File("${platformDir}/_apps.json").setText(appsNameJson.toPrettyString(),"utf8");
+
             apps.each { appName ->
                 JsonBuilder json = new JsonBuilder()
-//                json service.getShortcutsFor(appName,platform)
                 def array = []
                 def appmap = service.getShortcutsFor(appName,platform)
-                appmap.each {k,v->
+                appmap.each {String k,v->
+                    println k.replaceAll(/"/,/\"/)
                     array <<  [
-                            "action":k.replaceAll("\"","\\\""),
+                            "action":k.replaceAll(/\"/,/\\\"/),
                             "context":v.context,
                             "shortcut":v.shortcut
                     ]
                 }
                 json array
-                new File("${platformDir}/${appName}.json").text  = json.toPrettyString()
+                new File("${platformDir}/${appName}.json").setText(json.toPrettyString(),"utf8") // important -- encoding must be UTF 8
 
             }
 
