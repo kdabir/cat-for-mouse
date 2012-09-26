@@ -1,0 +1,277 @@
+[
+    {
+        "action": "Go to Contacts",
+        "context": "Jumping",
+        "shortcut": "g then c"
+    },
+    {
+        "action": "Go to Starred conversations",
+        "context": "Jumping",
+        "shortcut": "g then s"
+    },
+    {
+        "action": "Go to Sent messages",
+        "context": "Jumping",
+        "shortcut": "g then t"
+    },
+    {
+        "action": "Go to All mail",
+        "context": "Jumping",
+        "shortcut": "g then a"
+    },
+    {
+        "action": "Go to Tasks",
+        "context": "Jumping",
+        "shortcut": "g then k"
+    },
+    {
+        "action": "Go to Drafts",
+        "context": "Jumping",
+        "shortcut": "g then d"
+    },
+    {
+        "action": "Go to Inbox",
+        "context": "Jumping",
+        "shortcut": "g then i"
+    },
+    {
+        "action": "Go to Label",
+        "context": "Jumping",
+        "shortcut": "g then l"
+    },
+    {
+        "action": "Search chat contacts",
+        "context": "Application",
+        "shortcut": "q"
+    },
+    {
+        "action": "Open keyboard shortcut help",
+        "context": "Application",
+        "shortcut": "?"
+    },
+    {
+        "action": "Open \"label as\" menu",
+        "context": "Application",
+        "shortcut": "l"
+    },
+    {
+        "action": "Search mail",
+        "context": "Application",
+        "shortcut": "/"
+    },
+    {
+        "action": "Open \"move to\" menu",
+        "context": "Application",
+        "shortcut": "v"
+    },
+    {
+        "action": "Open \"more actions\" menu",
+        "context": "Application",
+        "shortcut": "."
+    },
+    {
+        "action": "Compose",
+        "context": "Application",
+        "shortcut": "c"
+    },
+    {
+        "action": "Select all conversations",
+        "context": "Threadlist selection",
+        "shortcut": "* then a"
+    },
+    {
+        "action": "Select unread conversations",
+        "context": "Threadlist selection",
+        "shortcut": "* then u"
+    },
+    {
+        "action": "Select unstarred conversations",
+        "context": "Threadlist selection",
+        "shortcut": "* then t"
+    },
+    {
+        "action": "Select read conversations",
+        "context": "Threadlist selection",
+        "shortcut": "* then r"
+    },
+    {
+        "action": "Deselect all conversations",
+        "context": "Threadlist selection",
+        "shortcut": "* then n"
+    },
+    {
+        "action": "Select starred conversations",
+        "context": "Threadlist selection",
+        "shortcut": "* then s"
+    },
+    {
+        "action": "Mark as important",
+        "context": "Actions",
+        "shortcut": "+ or ="
+    },
+    {
+        "action": "Mark as not important",
+        "context": "Actions",
+        "shortcut": "-"
+    },
+    {
+        "action": "Save draft",
+        "context": "Actions",
+        "shortcut": "<Ctrl> + s"
+    },
+    {
+        "action": "Reply all in a new window",
+        "context": "Actions",
+        "shortcut": "<Shift> + a"
+    },
+    {
+        "action": "Reply in a new window",
+        "context": "Actions",
+        "shortcut": "<Shift> + r"
+    },
+    {
+        "action": "Update conversation",
+        "context": "Actions",
+        "shortcut": "<Shift> + n"
+    },
+    {
+        "action": "Focus last mole",
+        "context": "Actions",
+        "shortcut": "<Esc>"
+    },
+    {
+        "action": "Forward",
+        "context": "Actions",
+        "shortcut": "f"
+    },
+    {
+        "action": "Ignore conversation",
+        "context": "Actions",
+        "shortcut": "m"
+    },
+    {
+        "action": "Move to trash",
+        "context": "Actions",
+        "shortcut": "#"
+    },
+    {
+        "action": "Mark as unread",
+        "context": "Actions",
+        "shortcut": "<Shift> + u"
+    },
+    {
+        "action": "Send mail",
+        "context": "Actions",
+        "shortcut": "<Tab> then Enter"
+    },
+    {
+        "action": "Move focus to toolbar",
+        "context": "Actions",
+        "shortcut": ","
+    },
+    {
+        "action": "Archive",
+        "context": "Actions",
+        "shortcut": "e"
+    },
+    {
+        "action": "Make a phone call",
+        "context": "Actions",
+        "shortcut": "g then p"
+    },
+    {
+        "action": "Report as spam",
+        "context": "Actions",
+        "shortcut": "!"
+    },
+    {
+        "action": "Forward in a new window",
+        "context": "Actions",
+        "shortcut": "<Shift> + f"
+    },
+    {
+        "action": "Mark as read",
+        "context": "Actions",
+        "shortcut": "<Shift> + i"
+    },
+    {
+        "action": "Reply all",
+        "context": "Actions",
+        "shortcut": "a"
+    },
+    {
+        "action": "Add conversation to Tasks",
+        "context": "Actions",
+        "shortcut": "<Shift> + t"
+    },
+    {
+        "action": "Mark unread from the selected message",
+        "context": "Actions",
+        "shortcut": "_"
+    },
+    {
+        "action": "Archive conversation and go previous/next",
+        "context": "Actions",
+        "shortcut": "} / {"
+    },
+    {
+        "action": "Rotate superstar",
+        "context": "Actions",
+        "shortcut": "s"
+    },
+    {
+        "action": "Select conversation",
+        "context": "Actions",
+        "shortcut": "x"
+    },
+    {
+        "action": "Remove label",
+        "context": "Actions",
+        "shortcut": "y"
+    },
+    {
+        "action": "Undo last action",
+        "context": "Actions",
+        "shortcut": "z"
+    },
+    {
+        "action": "Reply",
+        "context": "Actions",
+        "shortcut": "r"
+    },
+    {
+        "action": "Remove conversation from current view and go previous/next",
+        "context": "Actions",
+        "shortcut": "] / ["
+    },
+    {
+        "action": "Read previous/next message",
+        "context": "Navigation",
+        "shortcut": "p / n"
+    },
+    {
+        "action": "Go to previous inbox section",
+        "context": "Navigation",
+        "shortcut": "~"
+    },
+    {
+        "action": "Back to threadlist",
+        "context": "Navigation",
+        "shortcut": "u"
+    },
+    {
+        "action": "Open conversation; collapse/expand conversation",
+        "context": "Navigation",
+        "shortcut": "o or <Enter>"
+    },
+    {
+        "action": "Go to next inbox section",
+        "context": "Navigation",
+        "shortcut": "`"
+    },
+    {
+        "action": "Newer/older conversation",
+        "context": "Navigation",
+        "shortcut": "k / j"
+    }
+]

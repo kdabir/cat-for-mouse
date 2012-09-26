@@ -1,0 +1,182 @@
+[
+    {
+        "action": "View next message down",
+        "context": "Messages",
+        "shortcut": "Ctrl+."
+    },
+    {
+        "action": "Print message",
+        "context": "Messages",
+        "shortcut": "P"
+    },
+    {
+        "action": "Move message(s) to a new folder",
+        "context": "Messages",
+        "shortcut": "D then Cmd+Shift+E"
+    },
+    {
+        "action": "Move message(s) to one of your first 9 folders",
+        "context": "Messages",
+        "shortcut": "D then number"
+    },
+    {
+        "action": "Mark as read",
+        "context": "Messages",
+        "shortcut": "K"
+    },
+    {
+        "action": "Clear flag",
+        "context": "Messages",
+        "shortcut": "Shift+L"
+    },
+    {
+        "action": "Add sender to contacts",
+        "context": "Messages",
+        "shortcut": "Shift+A"
+    },
+    {
+        "action": "View or hide the reply bar",
+        "context": "Messages",
+        "shortcut": "Shift+R"
+    },
+    {
+        "action": "Reply to a message",
+        "context": "Messages",
+        "shortcut": "R"
+    },
+    {
+        "action": "Flag a message",
+        "context": "Messages",
+        "shortcut": "L"
+    },
+    {
+        "action": "Create a new folder",
+        "context": "Messages",
+        "shortcut": "Cmd+Shift+E"
+    },
+    {
+        "action": "Reply all to a message",
+        "context": "Messages",
+        "shortcut": "A"
+    },
+    {
+        "action": "Delete message",
+        "context": "Messages",
+        "shortcut": "Delete"
+    },
+    {
+        "action": "Open Move menu",
+        "context": "Messages",
+        "shortcut": "D"
+    },
+    {
+        "action": "View next message up",
+        "context": "Messages",
+        "shortcut": "Ctrl+,"
+    },
+    {
+        "action": "Mark as unread",
+        "context": "Messages",
+        "shortcut": "Shift+K"
+    },
+    {
+        "action": "Forward a message",
+        "context": "Messages",
+        "shortcut": "F"
+    },
+    {
+        "action": "Open a message",
+        "context": "Message Lists",
+        "shortcut": "Return"
+    },
+    {
+        "action": "Turn Preview Pane on or off (when viewing messages in a scrolling list)",
+        "context": "Message Lists",
+        "shortcut": "V"
+    },
+    {
+        "action": "Highlight the next message up or down",
+        "context": "Message Lists",
+        "shortcut": "Up/Down"
+    },
+    {
+        "action": "Select all messages",
+        "context": "Message Lists",
+        "shortcut": "Cmd+A"
+    },
+    {
+        "action": "Move to the previous tab",
+        "context": "General Commands",
+        "shortcut": "Cmd+["
+    },
+    {
+        "action": "Check mail (jumps to Inbox)",
+        "context": "General Commands",
+        "shortcut": "M"
+    },
+    {
+        "action": "Search",
+        "context": "General Commands",
+        "shortcut": "S"
+    },
+    {
+        "action": "Close the current tab",
+        "context": "General Commands",
+        "shortcut": "Esc"
+    },
+    {
+        "action": "Check all mail (includes 'POP' accounts)",
+        "context": "General Commands",
+        "shortcut": "Shift+M"
+    },
+    {
+        "action": "Start a new email message",
+        "context": "General Commands",
+        "shortcut": "N"
+    },
+    {
+        "action": "Display keyboard shortcuts",
+        "context": "General Commands",
+        "shortcut": "?"
+    },
+    {
+        "action": "Move to the next tab",
+        "context": "General Commands",
+        "shortcut": "Cmd+]"
+    },
+    {
+        "action": "Start a new SMS message (text)",
+        "context": "General Commands",
+        "shortcut": "T"
+    },
+    {
+        "action": "Start a new Instant Message (IM)",
+        "context": "General Commands",
+        "shortcut": "I"
+    },
+    {
+        "action": "Check or uncheck a message's checkbox",
+        "context": "Message Lists (Page by Page)",
+        "shortcut": "Spacebar"
+    },
+    {
+        "action": "Move focus up or down the list (preserving selection)",
+        "context": "Message Lists (Page by Page)",
+        "shortcut": "Cmd+Up/Down"
+    },
+    {
+        "action": "Send message",
+        "context": "Compose",
+        "shortcut": "Cmd+Return"
+    },
+    {
+        "action": "Attach files (one at a time)",
+        "context": "Compose",
+        "shortcut": "Cmd+Shift+U"
+    },
+    {
+        "action": "Save as a draft",
+        "context": "Compose",
+        "shortcut": "Cmd+S"
+    }
+]

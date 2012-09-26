@@ -1,0 +1,297 @@
+[
+    {
+        "action": "Open the Applications folder",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-A"
+    },
+    {
+        "action": "Open desktop folder",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-D"
+    },
+    {
+        "action": "Undo / Redo",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-Z"
+    },
+    {
+        "action": "Open iDisk",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-I"
+    },
+    {
+        "action": "Get Summary Info",
+        "context": "Finder Shortcuts",
+        "shortcut": "Control-Command-I"
+    },
+    {
+        "action": "Cut",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-X"
+    },
+    {
+        "action": "Hide Toolbar / Show Toolbar in Finder windows",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-T"
+    },
+    {
+        "action": "Make alias of the selected item",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-L"
+    },
+    {
+        "action": "Forward",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-]"
+    },
+    {
+        "action": "Show Inspector",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-I"
+    },
+    {
+        "action": "Back",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-["
+    },
+    {
+        "action": "Open the Computer window",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-C"
+    },
+    {
+        "action": "View as Cover Flow (Mac OS X 10.5 or later)",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-4"
+    },
+    {
+        "action": "Open highlighted item",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-Down Arrow"
+    },
+    {
+        "action": "Show original (of alias)",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-R"
+    },
+    {
+        "action": "Close window",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-W"
+    },
+    {
+        "action": "New Finder window",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-N"
+    },
+    {
+        "action": "Find Spotlight file name matches",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-F"
+    },
+    {
+        "action": "Open enclosed folder",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-Up Arrow"
+    },
+    {
+        "action": "Show View Options",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-J"
+    },
+    {
+        "action": "Empty Trash",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-Delete"
+    },
+    {
+        "action": "Switch application--cycle backward",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-Tab"
+    },
+    {
+        "action": "Open enclosed folder in a new window",
+        "context": "Finder Shortcuts",
+        "shortcut": "Control-Command-Up Arrow"
+    },
+    {
+        "action": "New Smart Folder",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-N"
+    },
+    {
+        "action": "Open selected item",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-O"
+    },
+    {
+        "action": "Open Mac Help",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-Shift-?"
+    },
+    {
+        "action": "Find any matching Spotlight attribute",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-F"
+    },
+    {
+        "action": "Quick Look (Mac OS X 10.5 or later)",
+        "context": "Finder Shortcuts",
+        "shortcut": "Spacebar (or Command-Y)"
+    },
+    {
+        "action": "Open the Home folder of the currently logged-in user account",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-H"
+    },
+    {
+        "action": "Get Info",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-I"
+    },
+    {
+        "action": "Force Quit front-most application",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Shift-Command-Esc (hold for three seconds) - Mac OS X v10.5, v10.6 or later only"
+    },
+    {
+        "action": "Eject",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-E"
+    },
+    {
+        "action": "Open Utilities folder",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-U"
+    },
+    {
+        "action": "Empty Trash without confirmation dialog",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Shift-Command-Delete"
+    },
+    {
+        "action": "Switch application--cycle forward",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-Tab"
+    },
+    {
+        "action": "Minimize all windows",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-M"
+    },
+    {
+        "action": "View as List",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-2"
+    },
+    {
+        "action": "Log Out immediately",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Shift-Command-Q"
+    },
+    {
+        "action": "Paste",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-V"
+    },
+    {
+        "action": "Cycle through open Finder windows",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-` (the Grave accent key--above Tab key on a US English keyboard layout)"
+    },
+    {
+        "action": "Go to Folder",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-G"
+    },
+    {
+        "action": "Deselect all items",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-A"
+    },
+    {
+        "action": "Open Network window",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-K"
+    },
+    {
+        "action": "Select all items in the front Finder window (or desktop if no window is open)",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-A"
+    },
+    {
+        "action": "Add to Favorites",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-T"
+    },
+    {
+        "action": "Navigate to the search field in an already-open Spotlight window",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-F"
+    },
+    {
+        "action": "Connect to Server",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-K"
+    },
+    {
+        "action": "Duplicate selected item",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-D"
+    },
+    {
+        "action": "Minimize window",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-M"
+    },
+    {
+        "action": "New folder",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-N"
+    },
+    {
+        "action": "Slideshow (Mac OS X 10.5 or later)",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-Y"
+    },
+    {
+        "action": "Copy selected item/text to the Clipboard",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-C"
+    },
+    {
+        "action": "Add to Sidebar",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-T"
+    },
+    {
+        "action": "Move to Trash",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-Delete"
+    },
+    {
+        "action": "View as Icon",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-1"
+    },
+    {
+        "action": "Close all windows",
+        "context": "Finder Shortcuts",
+        "shortcut": "Option-Command-W"
+    },
+    {
+        "action": "Open Finder preferences",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-, (Command and the comma key)"
+    },
+    {
+        "action": "View as Columns",
+        "context": "Finder Shortcuts",
+        "shortcut": "Command-3"
+    },
+    {
+        "action": "Log Out",
+        "context": "Finder Shortcuts",
+        "shortcut": "Shift-Command-Q"
+    }
+]

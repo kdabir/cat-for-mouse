@@ -1,0 +1,392 @@
+[
+    {
+        "action": "Reopens the last tab you've closed. Google Chrome remembers the last 10 tabs you've closed.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-Shift-T"
+    },
+    {
+        "action": "Hides all other windows.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-Option-H"
+    },
+    {
+        "action": "Opens a new tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-T"
+    },
+    {
+        "action": "Opens the link in a new tab in the background .",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press ⌘ and click a link. Or click a link with your middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Opens a new window in incognito mode.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-Shift-N"
+    },
+    {
+        "action": "Opens the link in a new window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Shift and click a link."
+    },
+    {
+        "action": "Switches to the previous tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press ⌘-Option and the left arrow together."
+    },
+    {
+        "action": "Closes the current tab or pop-up.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-W"
+    },
+    {
+        "action": "Closes the current window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-Shift-W"
+    },
+    {
+        "action": "Displays your browsing history in the tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Click and hold either the Back or Forward arrow in the browser toolbar."
+    },
+    {
+        "action": "Opens a new window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-N"
+    },
+    {
+        "action": "Opens a file from your computer in Google Chrome.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press ⌘-O, then select file."
+    },
+    {
+        "action": "Goes to the previous page in your browsing history for the tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Delete or ⌘-["
+    },
+    {
+        "action": "Opens the tab in the existing window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Drag a tab out of the tab strip and into an existing window."
+    },
+    {
+        "action": "Maximizes the window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Shift while clicking the + button in the top left corner of the window."
+    },
+    {
+        "action": "Minimizes the window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-M"
+    },
+    {
+        "action": "Closes Google Chrome.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-Q"
+    },
+    {
+        "action": "Hides Google Chrome.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "⌘-H"
+    },
+    {
+        "action": "Opens the link in a new tab and switches to the newly opened tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press ⌘-Shift and click a link. Or press Shift and click a link with your middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Goes to the next page in your browsing history for the tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Shift-Delete or ⌘-]"
+    },
+    {
+        "action": "Opens the tab in a new window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Drag a tab out of the tab strip."
+    },
+    {
+        "action": "Switches to the next tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press ⌘-Option and the right arrow together."
+    },
+    {
+        "action": "Deletes highlighted content and saves it to your clipboard (cut).",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-X"
+    },
+    {
+        "action": "Selects all the text on your current page.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-A"
+    },
+    {
+        "action": "Opens the Spelling and Grammar dialog.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-:"
+    },
+    {
+        "action": "Copies the URL of the page you're viewing to the clipboard.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-Option-C"
+    },
+    {
+        "action": "Pastes content from the clipboard.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-V"
+    },
+    {
+        "action": "Deletes the highlighted content and copies it to the clipboard.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-X or Shift-Delete"
+    },
+    {
+        "action": "Checks your current page for spelling and grammar",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-;"
+    },
+    {
+        "action": "Repeats your last action.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-Shift-Z"
+    },
+    {
+        "action": "Reverts your last action.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-Z"
+    },
+    {
+        "action": "Copies highlighted content to the clipboard.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-C"
+    },
+    {
+        "action": "Pastes content without source formatting.",
+        "context": "Text shortcuts",
+        "shortcut": "⌘-Shift-Option-V"
+    },
+    {
+        "action": "Opens the JavaScript Console.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Option-J"
+    },
+    {
+        "action": "Reloads your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-R"
+    },
+    {
+        "action": "Downloads the target of the link.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Press Option and click a link."
+    },
+    {
+        "action": "Prints your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-P"
+    },
+    {
+        "action": "Emails your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Shift-I"
+    },
+    {
+        "action": "Scrolls down the web page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Space bar"
+    },
+    {
+        "action": "Opens the Page Setup dialog.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Shift-P"
+    },
+    {
+        "action": "Finds the previous match for your input in the find bar.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Shift-G or Shift-Enter"
+    },
+    {
+        "action": "Saves your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-S"
+    },
+    {
+        "action": "Stops loading of your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-,"
+    },
+    {
+        "action": "Jumps to selection",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-J"
+    },
+    {
+        "action": "Opens your page in full-screen mode. Press ⌘-Shift-F again to exit full-screen.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Shift-F"
+    },
+    {
+        "action": "Searches the web.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Option-F"
+    },
+    {
+        "action": "Makes everything on the page smaller.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘ and -"
+    },
+    {
+        "action": "Finds the next match for your input in the find bar.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-G"
+    },
+    {
+        "action": "Saves the link as a bookmark.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Drag a link to the bookmarks bar."
+    },
+    {
+        "action": "Saves all open tabs as bookmarks in a new folder.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Shift-D"
+    },
+    {
+        "action": "Opens Developer Tools.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Option-I"
+    },
+    {
+        "action": "Uses selection for find",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-E"
+    },
+    {
+        "action": "Opens the find bar.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-F"
+    },
+    {
+        "action": "Opens the source of your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Option-U"
+    },
+    {
+        "action": "Returns everything on the page to normal size.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-0"
+    },
+    {
+        "action": "Opens your home page in your current tab.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-Shift-H"
+    },
+    {
+        "action": "Saves your current webpage as a bookmark.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-D"
+    },
+    {
+        "action": "Enlarges everything on the page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "⌘-+"
+    },
+    {
+        "action": "Toggles the bookmarks bar on and off.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "⌘-Shift-B"
+    },
+    {
+        "action": "Opens the Preferences dialog.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "⌘-,"
+    },
+    {
+        "action": "Switch between multiple users.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "⌘-Shift-M"
+    },
+    {
+        "action": "Opens the History page.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "⌘-Y"
+    },
+    {
+        "action": "Opens the Clear Browsing Data dialog.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "⌘-Shift-Delete"
+    },
+    {
+        "action": "Opens the Downloads page.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "⌘-Shift-J"
+    },
+    {
+        "action": "Opens the bookmark manager.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "⌘-Option-B"
+    },
+    {
+        "action": "Highlights the next key term in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Shift-Option and the right arrow together."
+    },
+    {
+        "action": "Selects the previous or next entry in the menu.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Page Up or Page Down in the addess bar menu."
+    },
+    {
+        "action": "Deletes the key term that precedes your cursor in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "⌘-Delete"
+    },
+    {
+        "action": "Moves your cursor to the preceding key term in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Option and the left arrow together."
+    },
+    {
+        "action": "Highlights the URL.",
+        "context": "Address bar shortcuts",
+        "shortcut": "⌘-L"
+    },
+    {
+        "action": "Highlights the preceding key term in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Shift-Option and the left arrow together."
+    },
+    {
+        "action": "Opens the URL in a new background tab.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Type a URL, then press ⌘-Enter."
+    },
+    {
+        "action": "Deletes the entry from your browsing history, if possible.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Select an entry in the address bar drop-down menu with your keyboard arrows, then press Shift-Fn-Delete."
+    },
+    {
+        "action": "Performs a search using your default search engine.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Type a search term, then press Enter."
+    },
+    {
+        "action": "Performs a search using the search engine associated with the keyword.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Type a search engine keyword, press Space, type a search term, and press Enter."
+    },
+    {
+        "action": "Performs a search using the search engine associated with the URL.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Begin typing a search engine URL, press Tab when prompted, type a search term, and press Enter."
+    },
+    {
+        "action": "Moves your cursor to the next key term in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Option and the right arrow together."
+    },
+    {
+        "action": "Places a '?' in the address bar. Type a search term after the question mark to perform a search using your default search engine.",
+        "context": "Address bar shortcuts",
+        "shortcut": "⌘-Option-F"
+    }
+]

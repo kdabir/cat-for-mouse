@@ -1,0 +1,372 @@
+[
+    {
+        "action": "Reopens the last tab you've closed. Google Chrome remembers the last 10 tabs you've closed.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+Shift+T"
+    },
+    {
+        "action": "Opens the link in the tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Drag a link to a tab."
+    },
+    {
+        "action": "Returns the tab to its original position.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Esc while dragging a tab."
+    },
+    {
+        "action": "Maximizes or minimizes the window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Double-click the blank area on the tab strip."
+    },
+    {
+        "action": "Opens a new tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+T"
+    },
+    {
+        "action": "Switches to the last tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+9"
+    },
+    {
+        "action": "Opens the link in a new tab in the background .",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Ctrl and click a link. Or click a link with your middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Opens a new window in incognito mode.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+Shift+N"
+    },
+    {
+        "action": "Opens the link in a new window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Shift and click a link."
+    },
+    {
+        "action": "Switches to the previous tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+Shift+Tab or Ctrl+PgUp"
+    },
+    {
+        "action": "Closes the current tab or pop-up.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+W or Ctrl+F4"
+    },
+    {
+        "action": "Closes the current window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Alt+F4"
+    },
+    {
+        "action": "Displays your browsing history in the tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Right-click, or click and hold either the Back or Forward arrow in the browser toolbar."
+    },
+    {
+        "action": "Closes the tab you clicked.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Click a tab with your middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Switches to the tab at the specified position number on the tab strip.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+1 through Ctrl+8"
+    },
+    {
+        "action": "Opens a new window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+N"
+    },
+    {
+        "action": "Opens a file from your computer in Google Chrome.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Ctrl+O, then select file."
+    },
+    {
+        "action": "Goes to the previous page in your browsing history for the tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Backspace, or Alt and the left arrow together."
+    },
+    {
+        "action": "Opens the link in a new tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Drag a link to a blank area on the tab strip."
+    },
+    {
+        "action": "Opens the tab in the existing window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Drag a tab out of the tab strip and into an existing window."
+    },
+    {
+        "action": "Opens your homepage in your current window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Alt+Home"
+    },
+    {
+        "action": "Opens the link in a new tab and switches to the newly opened tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Ctrl+Shift and click a link. Or press Shift and click a link with your middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Goes to the next page in your browsing history for the tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Shift+Backspace, or Alt and the right arrow together."
+    },
+    {
+        "action": "Opens the tab in a new window.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Drag a tab out of the tab strip."
+    },
+    {
+        "action": "Switches to the next tab.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Ctrl+Tab or Ctrl+PgDown"
+    },
+    {
+        "action": "Opens the button destination in a new tab in the background.",
+        "context": "Tab and window shortcuts",
+        "shortcut": "Press Ctrl and click either the Back arrow, Forward arrow, or Go button in the toolbar. Or click either button with your middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Pastes content from the clipboard.",
+        "context": "Text shortcuts",
+        "shortcut": "Ctrl+V or Shift+Insert"
+    },
+    {
+        "action": "Deletes the highlighted content and copies it to the clipboard.",
+        "context": "Text shortcuts",
+        "shortcut": "Ctrl+X or Shift+Delete"
+    },
+    {
+        "action": "Paste content from the clipboard without formatting.",
+        "context": "Text shortcuts",
+        "shortcut": "Ctrl+Shift+V"
+    },
+    {
+        "action": "Copies highlighted content to the clipboard.",
+        "context": "Text shortcuts",
+        "shortcut": "Ctrl+C"
+    },
+    {
+        "action": "Reloads your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "F5 or Ctrl+R"
+    },
+    {
+        "action": "Downloads the target of the link.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Press Alt and click a link."
+    },
+    {
+        "action": "Prints your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+P"
+    },
+    {
+        "action": "Scrolls down the web page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Space bar"
+    },
+    {
+        "action": "Finds the previous match for your input in the find bar.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+Shift+G, Shift+F3, or Shift+Enter"
+    },
+    {
+        "action": "Saves your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+S"
+    },
+    {
+        "action": "Makes everything on the page smaller.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl and -, or press Ctrl and scroll your mousewheel down."
+    },
+    {
+        "action": "Goes to the bottom of the page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "End"
+    },
+    {
+        "action": "Finds the next match for your input in the find bar.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+G or F3"
+    },
+    {
+        "action": "Saves the link as a bookmark.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Drag a link to bookmarks bar"
+    },
+    {
+        "action": "Scrolls horizontally on the page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Press Shift and scroll your mousewheel."
+    },
+    {
+        "action": "Reloads your current page, ignoring cached content.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+F5 or Shift+F5"
+    },
+    {
+        "action": "Opens the find bar.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+F"
+    },
+    {
+        "action": "Stops the loading of your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Esc"
+    },
+    {
+        "action": "Opens the source of your current page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+U"
+    },
+    {
+        "action": "Goes to the top of the page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Home"
+    },
+    {
+        "action": "Returns everything on the page to normal size.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+0"
+    },
+    {
+        "action": "Saves all open pages as bookmarks in a new folder.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+Shift+D"
+    },
+    {
+        "action": "Saves your current webpage as a bookmark.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl+D"
+    },
+    {
+        "action": "Activates auto-scrolling. As you move your mouse, the page automatically scrolls according to the direction of the mouse.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Click the middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Enlarges everything on the page.",
+        "context": "Webpage shortcuts",
+        "shortcut": "Ctrl and +, or press Ctrl and scroll your mousewheel up."
+    },
+    {
+        "action": "Opens your page in full-screen mode. Press F11 again to exit full-screen.",
+        "context": "Webpage shortcuts",
+        "shortcut": "F11"
+    },
+    {
+        "action": "Toggles the bookmarks bar on and off.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Ctrl+Shift+B"
+    },
+    {
+        "action": "Switch between multiple users.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Ctrl+Shift+M"
+    },
+    {
+        "action": "Opens the Task Manager.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Shift+Esc"
+    },
+    {
+        "action": "Opens the Help Center in a new tab (our favorite).",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "F1"
+    },
+    {
+        "action": "Opens Developer Tools.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Ctrl+Shift+J"
+    },
+    {
+        "action": "Opens the History page.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Ctrl+H"
+    },
+    {
+        "action": "Opens the Clear Browsing Data dialog.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Ctrl+Shift+Delete"
+    },
+    {
+        "action": "Opens the Downloads page.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Ctrl+J"
+    },
+    {
+        "action": "Opens the wrench menu, which lets you customize and control settings in Google Chrome.",
+        "context": "Google Chrome feature shortcuts",
+        "shortcut": "Alt+F or Alt+E"
+    },
+    {
+        "action": "Opens the URL in a new tab.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Type a URL, then press Alt+Enter."
+    },
+    {
+        "action": "Opens the entry in a new tab in the background.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Click an entry in the address bar drop-down menu with your middle mouse button (or mousewheel)."
+    },
+    {
+        "action": "Selects the first or last entry in the drop-down menu.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Page Up or Page Down when the address bar drop-down menu is visible."
+    },
+    {
+        "action": "Deletes the key term that precedes your cursor in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "Ctrl+Backspace"
+    },
+    {
+        "action": "Moves your cursor to the preceding key term in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Ctrl and the left arrow together."
+    },
+    {
+        "action": "Highlights the URL.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Ctrl+L or Alt+D"
+    },
+    {
+        "action": "Deletes the entry from your browsing history, if possible.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Select an entry in the address bar drop-down menu with your keyboard arrows, then press Shift+Delete."
+    },
+    {
+        "action": "Performs a search using your default search engine.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Type a search term, then press Enter."
+    },
+    {
+        "action": "Adds www. and .com to your input in the address bar and open the resulting URL.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Ctrl+Enter"
+    },
+    {
+        "action": "Performs a search using the search engine associated with the keyword.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Type a search engine keyword, press Space, type a search term, and press Enter."
+    },
+    {
+        "action": "Performs a search using the search engine associated with the URL.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Begin typing a search engine URL, press Tab when prompted, type a search term, and press Enter."
+    },
+    {
+        "action": "Moves your cursor to the next key term in the address bar",
+        "context": "Address bar shortcuts",
+        "shortcut": "Press Ctrl and the right arrow together."
+    },
+    {
+        "action": "Places a '?' in the address bar. Type a search term after the question mark to perform a search using your default search engine.",
+        "context": "Address bar shortcuts",
+        "shortcut": "Ctrl+K or Ctrl+E"
+    }
+]

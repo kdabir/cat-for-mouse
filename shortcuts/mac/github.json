@@ -1,0 +1,167 @@
+[
+    {
+        "action": "Move selection down",
+        "context": "Pull request list",
+        "shortcut": "j"
+    },
+    {
+        "action": "Move selection up",
+        "context": "Pull request list",
+        "shortcut": "k"
+    },
+    {
+        "action": "or enter Open issue",
+        "context": "Issues Dashboard",
+        "shortcut": "o"
+    },
+    {
+        "action": "Focus site search",
+        "context": "Site wide shortcuts",
+        "shortcut": "s"
+    },
+    {
+        "action": "Bring up this help dialog",
+        "context": "Site wide shortcuts",
+        "shortcut": "?"
+    },
+    {
+        "action": "Back to issues",
+        "context": "Issues",
+        "shortcut": "u"
+    },
+    {
+        "action": "Open issue",
+        "context": "Pull request list",
+        "shortcut": "o or enter"
+    },
+    {
+        "action": "Back to inbox",
+        "context": "Issues",
+        "shortcut": "i"
+    },
+    {
+        "action": "Create issue",
+        "context": "Issues",
+        "shortcut": "c"
+    },
+    {
+        "action": "Preview comment",
+        "context": "Pull request list",
+        "shortcut": "⌘ + shift p"
+    },
+    {
+        "action": "Submit comment",
+        "context": "Pull request list",
+        "shortcut": "⌘ + enter"
+    },
+    {
+        "action": "Focus issues search",
+        "context": "Issues",
+        "shortcut": "/"
+    },
+    {
+        "action": "Toggle selection",
+        "context": "Issues",
+        "shortcut": "x"
+    },
+    {
+        "action": "Create label",
+        "context": "Issues",
+        "shortcut": "l"
+    },
+    {
+        "action": "Activates the file finder",
+        "context": "Source Code Browsing",
+        "shortcut": "t"
+    },
+    {
+        "action": "Switch branch/tag",
+        "context": "Source Code Browsing",
+        "shortcut": "w"
+    },
+    {
+        "action": "Jump to line",
+        "context": "Source Code Browsing",
+        "shortcut": "l"
+    },
+    {
+        "action": "Expand URL to its canonical form",
+        "context": "Source Code Browsing",
+        "shortcut": "y"
+    },
+    {
+        "action": "Toggle visibility of head labels",
+        "context": "Network Graph",
+        "shortcut": "t"
+    },
+    {
+        "action": "Scroll up",
+        "context": "Network Graph",
+        "shortcut": "↑ or k"
+    },
+    {
+        "action": "Scroll down",
+        "context": "Network Graph",
+        "shortcut": "↓ or j"
+    },
+    {
+        "action": "Scroll all the way right",
+        "context": "Network Graph",
+        "shortcut": "shift → or shift l"
+    },
+    {
+        "action": "Scroll all the way up",
+        "context": "Network Graph",
+        "shortcut": "shift ↑ or shift k"
+    },
+    {
+        "action": "Scroll right",
+        "context": "Network Graph",
+        "shortcut": "→ or l"
+    },
+    {
+        "action": "Scroll all the way left",
+        "context": "Network Graph",
+        "shortcut": "shift ← or shift h"
+    },
+    {
+        "action": "Scroll all the way down",
+        "context": "Network Graph",
+        "shortcut": "shift ↓ or shift j"
+    },
+    {
+        "action": "Scroll left",
+        "context": "Network Graph",
+        "shortcut": "← or h"
+    },
+    {
+        "action": "Open notification",
+        "context": "Notifications",
+        "shortcut": "o or enter"
+    },
+    {
+        "action": "Mute thread",
+        "context": "Notifications",
+        "shortcut": "shift m"
+    },
+    {
+        "action": "Mark as read",
+        "context": "Notifications",
+        "shortcut": "e or shift i or y"
+    },
+    {
+        "action": "Close form",
+        "context": "Browsing Commits",
+        "shortcut": "escape"
+    },
+    {
+        "action": "Other parent commit",
+        "context": "Browsing Commits",
+        "shortcut": "o"
+    },
+    {
+        "action": "Parent commit",
+        "context": "Browsing Commits",
+        "shortcut": "p"
+    }
+]

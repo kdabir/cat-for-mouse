@@ -1,0 +1,367 @@
+[
+    {
+        "action": "Find Previous",
+        "context": "Search",
+        "shortcut": "Shift + F3 OR command + shift + G"
+    },
+    {
+        "action": "Quick Find within link-text only",
+        "context": "Search",
+        "shortcut": "'"
+    },
+    {
+        "action": "Select or Manage Search Engines",
+        "context": "Search",
+        "shortcut": "option + ↑"
+    },
+    {
+        "action": "Find",
+        "context": "Search",
+        "shortcut": "command + F"
+    },
+    {
+        "action": "option + ↓",
+        "context": "Search",
+        "shortcut": "- when Search Bar is focused"
+    },
+    {
+        "action": "Find Again",
+        "context": "Search",
+        "shortcut": "F3 OR command + G"
+    },
+    {
+        "action": "Search bar - Easily choose your favorite search engine",
+        "context": "Search",
+        "shortcut": "command + K"
+    },
+    {
+        "action": "Close the Find or Quick Find bar",
+        "context": "Search",
+        "shortcut": "Esc (when the Find or Quick Find bar is focused)"
+    },
+    {
+        "action": "Quick Find",
+        "context": "Search",
+        "shortcut": "/"
+    },
+    {
+        "action": "Previous Tab",
+        "context": "Windows & Tabs",
+        "shortcut": "control + shift + tab OR control + page up OR command + option + ←"
+    },
+    {
+        "action": "Select Last Tab",
+        "context": "Windows & Tabs",
+        "shortcut": "command + 9"
+    },
+    {
+        "action": "Close Tab",
+        "context": "Windows & Tabs",
+        "shortcut": "command + W"
+    },
+    {
+        "action": "Previous Tab Group",
+        "context": "Windows & Tabs",
+        "shortcut": "control + shift + ` (only for some keyboard layouts)"
+    },
+    {
+        "action": "New Window",
+        "context": "Windows & Tabs",
+        "shortcut": "command + N"
+    },
+    {
+        "action": "New Tab",
+        "context": "Windows & Tabs",
+        "shortcut": "command + T"
+    },
+    {
+        "action": "Open Address in New Tab",
+        "context": "Windows & Tabs",
+        "shortcut": "option + return (from Location Bar or Search Bar)"
+    },
+    {
+        "action": "Move Tab in focus to end",
+        "context": "Windows & Tabs",
+        "shortcut": "command + end"
+    },
+    {
+        "action": "Next Tab",
+        "context": "Windows & Tabs",
+        "shortcut": "control + tab OR control + page down OR command + option + →"
+    },
+    {
+        "action": "Move Tab in focus Left",
+        "context": "Windows & Tabs",
+        "shortcut": "command + ← OR command + ↑"
+    },
+    {
+        "action": "Undo Close Window",
+        "context": "Windows & Tabs",
+        "shortcut": "command + shift + N"
+    },
+    {
+        "action": "Select Tab 1 to 8",
+        "context": "Windows & Tabs",
+        "shortcut": "command + 1to8"
+    },
+    {
+        "action": "Undo Close Tab",
+        "context": "Windows & Tabs",
+        "shortcut": "command + shift + T"
+    },
+    {
+        "action": "Move Tab in focus to start",
+        "context": "Windows & Tabs",
+        "shortcut": "command + home"
+    },
+    {
+        "action": "Move Tab in focus Right",
+        "context": "Windows & Tabs",
+        "shortcut": "command + → OR command + ↓"
+    },
+    {
+        "action": "Close Window",
+        "context": "Windows & Tabs",
+        "shortcut": "command + shift + W"
+    },
+    {
+        "action": "Next Tab Group",
+        "context": "Windows & Tabs",
+        "shortcut": "control + ` (only for some keyboard layouts)"
+    },
+    {
+        "action": "Close Tab Groups View",
+        "context": "Windows & Tabs",
+        "shortcut": "Esc"
+    },
+    {
+        "action": "Tab Groups View",
+        "context": "Windows & Tabs",
+        "shortcut": "command + shift + E"
+    },
+    {
+        "action": "History sidebar",
+        "context": "History",
+        "shortcut": "command + shift + H"
+    },
+    {
+        "action": "Bookmarks sidebar",
+        "context": "Bookmarks",
+        "shortcut": "command + B"
+    },
+    {
+        "action": "Bookmark All Tabs",
+        "context": "Bookmarks",
+        "shortcut": "command + shift + D"
+    },
+    {
+        "action": "Library window (Bookmarks)",
+        "context": "Bookmarks",
+        "shortcut": "command + shift + B"
+    },
+    {
+        "action": "Bookmark This Page",
+        "context": "Bookmarks",
+        "shortcut": "command + D"
+    },
+    {
+        "action": "Save Page As",
+        "context": "Current Page",
+        "shortcut": "command + S"
+    },
+    {
+        "action": "Go to Bottom of Page",
+        "context": "Current Page",
+        "shortcut": "End"
+    },
+    {
+        "action": "Zoom Out",
+        "context": "Current Page",
+        "shortcut": "command + -"
+    },
+    {
+        "action": "Move to Previous Frame",
+        "context": "Current Page",
+        "shortcut": "Shift + F6"
+    },
+    {
+        "action": "Move to Next Frame",
+        "context": "Current Page",
+        "shortcut": "F6"
+    },
+    {
+        "action": "Zoom Reset",
+        "context": "Current Page",
+        "shortcut": "command + 0"
+    },
+    {
+        "action": "Zoom In",
+        "context": "Current Page",
+        "shortcut": "command + +"
+    },
+    {
+        "action": "Go to Top of Page",
+        "context": "Current Page",
+        "shortcut": "Home"
+    },
+    {
+        "action": "Print",
+        "context": "Current Page",
+        "shortcut": "command + P"
+    },
+    {
+        "action": "Paste",
+        "context": "Editing",
+        "shortcut": "command + V"
+    },
+    {
+        "action": "Undo",
+        "context": "Editing",
+        "shortcut": "command + Z"
+    },
+    {
+        "action": "Select All",
+        "context": "Editing",
+        "shortcut": "command + A"
+    },
+    {
+        "action": "Cut",
+        "context": "Editing",
+        "shortcut": "command + X"
+    },
+    {
+        "action": "Delete",
+        "context": "Editing",
+        "shortcut": "delete"
+    },
+    {
+        "action": "Redo",
+        "context": "Editing",
+        "shortcut": "command + shift + Z"
+    },
+    {
+        "action": "Copy",
+        "context": "Editing",
+        "shortcut": "command + C"
+    },
+    {
+        "action": "Reload (override cache)",
+        "context": "Navigation",
+        "shortcut": "command + shift + R"
+    },
+    {
+        "action": "Home",
+        "context": "Navigation",
+        "shortcut": "option + home"
+    },
+    {
+        "action": "Open File",
+        "context": "Navigation",
+        "shortcut": "command + O"
+    },
+    {
+        "action": "Reload",
+        "context": "Navigation",
+        "shortcut": "F5 OR command + R"
+    },
+    {
+        "action": "Stop",
+        "context": "Navigation",
+        "shortcut": "Esc OR command + ."
+    },
+    {
+        "action": "Forward",
+        "context": "Navigation",
+        "shortcut": "command + → OR command + ] OR Shift + Delete"
+    },
+    {
+        "action": "Back",
+        "context": "Navigation",
+        "shortcut": "command + ← OR command + [ OR Delete"
+    },
+    {
+        "action": "Downloads",
+        "context": "Tools",
+        "shortcut": "command + J"
+    },
+    {
+        "action": "Toggle Private Browsing",
+        "context": "Tools",
+        "shortcut": "command + shift + P"
+    },
+    {
+        "action": "Page Source",
+        "context": "Tools",
+        "shortcut": "command + U"
+    },
+    {
+        "action": "Add-ons",
+        "context": "Tools",
+        "shortcut": "command + shift + A"
+    },
+    {
+        "action": "Page Info",
+        "context": "Tools",
+        "shortcut": "command + I"
+    },
+    {
+        "action": "Error Console",
+        "context": "Tools",
+        "shortcut": "command + shift + J"
+    },
+    {
+        "action": "Web Console",
+        "context": "Tools",
+        "shortcut": "command + shift + K"
+    },
+    {
+        "action": "Inspect",
+        "context": "Tools",
+        "shortcut": "command + shift + I"
+    },
+    {
+        "action": "Remove recent browsing, search and download history",
+        "context": "Tools",
+        "shortcut": "command + shift + delete"
+    },
+    {
+        "action": "Select Location Bar",
+        "context": "Miscellaneous",
+        "shortcut": "command + L"
+    },
+    {
+        "action": "Show/Hide Add-on Bar",
+        "context": "Miscellaneous",
+        "shortcut": "command + /"
+    },
+    {
+        "action": "Delete Selected Autocomplete Entry",
+        "context": "Miscellaneous",
+        "shortcut": "shift + delete"
+    },
+    {
+        "action": "Toggle Full Screen",
+        "context": "Miscellaneous",
+        "shortcut": "command+Shift+F"
+    },
+    {
+        "action": "Caret Browsing",
+        "context": "Miscellaneous",
+        "shortcut": "F7"
+    },
+    {
+        "action": "Complete .net Address",
+        "context": "Miscellaneous",
+        "shortcut": "shift + return"
+    },
+    {
+        "action": "Complete .com Address",
+        "context": "Miscellaneous",
+        "shortcut": "command + return"
+    },
+    {
+        "action": "Complete .org Address",
+        "context": "Miscellaneous",
+        "shortcut": "command + shift + return"
+    }
+]
