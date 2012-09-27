@@ -11,9 +11,9 @@ function FuzzyComparator(keywords) {
             if (iter + 1 < keyword.length) {
                 bigrams.push((keyword.charCodeAt(iter) << 8) | keyword.charCodeAt(iter + 1));
             }
-//            else {
-//                bigrams.push(keyword.charCodeAt(iter) << 8);
-//            }
+           else {
+               bigrams.push(keyword.charCodeAt(iter) << 8);
+           }
         }
         return bigrams;
     };
