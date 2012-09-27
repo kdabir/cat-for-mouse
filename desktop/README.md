@@ -1,4 +1,4 @@
-Cat for Mouse
+Cat for Mouse [Desktop App]
 =============
 
 ###Running
